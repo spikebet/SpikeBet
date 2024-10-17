@@ -1,0 +1,1691 @@
+.phone.phone-wrapper {
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .phone .div {
+    background-color: rgba(255, 255, 255, 1.0);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    width: 393px;
+    height: 1111px;
+    position: relative;
+  }
+  
+  .phone .overlap {
+    position: absolute;
+    width: 396px;
+    height: 814px;
+    top: 297px;
+    left: 0;
+  }
+  
+  .phone .group {
+    position: absolute;
+    width: 393px;
+    height: 607px;
+    top: 207px;
+    left: 0;
+  }
+  
+  .phone .iphone-pro {
+    position: absolute;
+    width: 238px;
+    height: 491px;
+    top: 43px;
+    left: 75px;
+  }
+  
+  .phone .overlap-group {
+    position: relative;
+    width: 393px;
+    height: 1111px;
+    top: -340px;
+    left: -75px;
+    background-image: url(https://c.animaapp.com/LvFrqCKW/img/iphone-12-pro@2x.png);
+    background-size: 100% 100%;
+  }
+  
+  .phone .screen-iphone-pro {
+    position: absolute;
+    width: 179px;
+    height: 471px;
+    top: 350px;
+    left: 98px;
+  }
+  
+  .phone .overlap-group-wrapper {
+    position: absolute;
+    width: 228px;
+    height: 110px;
+    top: 682px;
+    left: 22px;
+  }
+  
+  .phone .overlap-group-2 {
+    position: relative;
+    width: 226px;
+    height: 120px;
+    left: -10px;
+  }
+  
+  .phone .vector {
+    position: absolute;
+    width: 211px;
+    height: 108px;
+    top: 0;
+    left: 15px;
+  }
+  
+  .phone .rectangle {
+    position: absolute;
+    width: 174px;
+    height: 45px;
+    top: 67px;
+    left: 9px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: transparent;
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 20px #ffffff80;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(26, 26, 26, 0.2)
+      )
+      1;
+  }
+  
+  .phone .flag-of-the-united {
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    top: 57px;
+    left: 0;
+  }
+  
+  .phone .text-wrapper {
+    position: absolute;
+    width: 74px;
+    top: 89px;
+    left: 48px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 10.5px;
+  }
+  
+  .phone .olympic-final {
+    position: absolute;
+    width: 77px;
+    top: 79px;
+    left: 48px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: 7.3px;
+    white-space: nowrap;
+  }
+  
+  .phone .span {
+    color: #fcb434;
+  }
+  
+  .phone .text-wrapper-2 {
+    color: #ffffff;
+  }
+  
+  .phone .rectangle-2 {
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    top: 81px;
+    left: 128px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .rectangle-3 {
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    top: 81px;
+    left: 128px;
+    background-color: #fcb434;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .phone .text-wrapper-3 {
+    width: 16px;
+    top: 88px;
+    left: 132px;
+    color: #000000;
+    font-size: 8px;
+    line-height: 8.4px;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-4 {
+    width: 18px;
+    top: 88px;
+    left: 153px;
+    color: #ffffff;
+    font-size: 8px;
+    line-height: 8.4px;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-5 {
+    position: absolute;
+    width: 15px;
+    top: 83px;
+    left: 133px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 4px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 4.2px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-6 {
+    position: absolute;
+    width: 15px;
+    top: 83px;
+    left: 154px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 3px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 3.1px;
+    white-space: nowrap;
+  }
+  
+  .phone .overlap-wrapper {
+    position: absolute;
+    width: 294px;
+    height: 178px;
+    top: 0;
+    left: 102px;
+  }
+  
+  .phone .overlap-2 {
+    position: relative;
+    width: 274px;
+    height: 180px;
+    top: -2px;
+  }
+  
+  .phone .img {
+    position: absolute;
+    width: 269px;
+    height: 175px;
+    top: 4px;
+    left: 0;
+  }
+  
+  .phone .rectangle-4 {
+    position: absolute;
+    width: 189px;
+    height: 112px;
+    top: 0;
+    left: 85px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    border: 3px solid;
+    border-color: transparent;
+    box-shadow: 0px 0px 20px #ffffff80;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(26, 26, 26, 0.2)
+      )
+      1;
+  }
+  
+  .phone .rectangle-5 {
+    position: absolute;
+    width: 162px;
+    height: 31px;
+    top: 26px;
+    left: 98px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .rectangle-6 {
+    position: absolute;
+    width: 162px;
+    height: 31px;
+    top: 63px;
+    left: 98px;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .rectangle-7 {
+    position: absolute;
+    width: 79px;
+    height: 31px;
+    top: 63px;
+    left: 181px;
+    background-color: #fcb434;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .rectangle-8 {
+    position: absolute;
+    width: 28px;
+    height: 22px;
+    top: 30px;
+    left: 227px;
+    background-color: #fcb434;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .text-wrapper-7 {
+    width: 23px;
+    height: 11px;
+    top: 36px;
+    left: 229px;
+    color: #000000;
+    font-size: 10px;
+    line-height: 10.5px;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .phone .rectangle-9 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    top: 70px;
+    left: 234px;
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .text-wrapper-8 {
+    width: 24px;
+    height: 11px;
+    top: 74px;
+    left: 233px;
+    color: #ffffff;
+    font-size: 9px;
+    line-height: 9.4px;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .phone .union {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 23px;
+    left: 95px;
+  }
+  
+  .phone .ellipse {
+    position: absolute;
+    width: 9px;
+    height: 3px;
+    top: 33px;
+    left: 117px;
+    background-color: #adadad;
+    border-radius: 4.34px / 1.65px;
+    transform: rotate(46.59deg);
+    box-shadow: inset 0px 4px 4px #00000080;
+  }
+  
+  .phone .world-champ {
+    position: absolute;
+    width: 116px;
+    top: 32px;
+    left: 132px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 7px;
+    letter-spacing: 0;
+    line-height: 7.3px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-9 {
+    position: absolute;
+    width: 101px;
+    top: 42px;
+    left: 132px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: 9.4px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-10 {
+    position: absolute;
+    width: 42px;
+    top: 79px;
+    left: 189px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 9px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 9.4px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-11 {
+    position: absolute;
+    width: 16px;
+    height: 5px;
+    top: 41px;
+    left: 104px;
+    transform: rotate(-43.66deg);
+    font-family: "Open Sans", Helvetica;
+    font-weight: 800;
+    color: #0085c7;
+    font-size: 4px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 4.2px;
+  }
+  
+  .phone .rectangle-10 {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    top: 70px;
+    left: 102px;
+    background-color: #fcb434;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .text-wrapper-12 {
+    width: 23px;
+    height: 11px;
+    top: 74px;
+    left: 101px;
+    color: #ffffff;
+    font-size: 9px;
+    line-height: 9.4px;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .phone .rectangle-11 {
+    position: absolute;
+    width: 66px;
+    height: 11px;
+    top: 63px;
+    left: 148px;
+    background-color: #1a1a1a;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .text-wrapper-13 {
+    position: absolute;
+    width: 47px;
+    top: 79px;
+    left: 126px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 9px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 9.4px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-14 {
+    position: absolute;
+    width: 11px;
+    top: 79px;
+    left: 174px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 8.4px;
+  }
+  
+  .phone .text-wrapper-15 {
+    position: absolute;
+    width: 109px;
+    top: 9px;
+    left: 100px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 10.5px;
+    white-space: nowrap;
+  }
+  
+  .phone .diamond-doha {
+    position: absolute;
+    width: 59px;
+    height: 5px;
+    top: 66px;
+    left: 151px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 5px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 5.2px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-16 {
+    position: absolute;
+    width: 222px;
+    top: 708px;
+    left: 58px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 19.5px;
+  }
+  
+  .phone .store-download {
+    position: absolute;
+    width: 202px;
+    height: 113px;
+    top: 701px;
+    left: 167px;
+  }
+  
+  .phone .store-download-2 {
+    position: absolute;
+    width: 202px;
+    height: 113px;
+    top: 701px;
+    left: 27px;
+  }
+  
+  .phone .overlap-3 {
+    position: absolute;
+    width: 579px;
+    height: 209px;
+    top: 80px;
+    left: -97px;
+  }
+  
+  .phone .text-wrapper-17 {
+    position: absolute;
+    width: 579px;
+    height: 83px;
+    top: 0;
+    left: 0;
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3.20px;
+    line-height: 42.0px;
+  }
+  
+  .phone .text-wrapper-18 {
+    position: absolute;
+    width: 295px;
+    height: 68px;
+    top: 51px;
+    left: 145px;
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: #fcb538;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 2.70px;
+    line-height: 40.0px;
+  }
+  
+  .phone .and-your-first-bet-s {
+    position: absolute;
+    width: 101px;
+    top: 174px;
+    left: 326px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 10.5px;
+  }
+  
+  .phone .group-2 {
+    position: absolute;
+    width: 363px;
+    height: 113px;
+    top: 96px;
+    left: 112px;
+  }
+  
+  .phone .group-3 {
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    top: 21px;
+    left: 17px;
+    object-fit: cover;
+  }
+  
+  .phone .text-wrapper-19 {
+    position: absolute;
+    width: 63px;
+    top: 17px;
+    left: 45px;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .phone .the-PREMIER-track {
+    position: absolute;
+    width: 332px;
+    top: 30px;
+    left: 108px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 12.6px;
+  }
+  
+  .phone .text-wrapper-20 {
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .phone .text-wrapper-21 {
+    font-weight: 700;
+    color: #22222a;
+  }
+  
+  .phone .text-wrapper-22 {
+    font-weight: 700;
+    font-style: italic;
+    color: #fcb434;
+  }
+  
+  .phone.half-size-wrapper {
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .phone .half-size {
+    background-color: rgba(255, 255, 255, 1.0);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    width: 1040px;
+    height: 1367px;
+    position: relative;
+  }
+  
+  .phone .overlap-4 {
+    position: absolute;
+    width: 1042px;
+    height: 1206px;
+    top: 161px;
+    left: -2px;
+  }
+  
+  .phone .group-4 {
+    position: absolute;
+    width: 1040px;
+    height: 972px;
+    top: 234px;
+    left: 2px;
+  }
+  
+  .phone .div-wrapper {
+    position: absolute;
+    width: 324px;
+    height: 669px;
+    top: 0;
+    left: 508px;
+  }
+  
+  .phone .overlap-5 {
+    position: relative;
+    width: 1040px;
+    height: 1367px;
+    top: -161px;
+    left: -506px;
+    background-image: url(https://c.animaapp.com/LvFrqCKW/img/iphone-12-pro-1.png);
+    background-size: 100% 100%;
+  }
+  
+  .phone .screen-iphone-pro-2 {
+    position: absolute;
+    width: 244px;
+    height: 642px;
+    top: 175px;
+    left: 537px;
+  }
+  
+  .phone .group-5 {
+    position: absolute;
+    width: 382px;
+    height: 190px;
+    top: 680px;
+    left: 584px;
+  }
+  
+  .phone .overlap-group-3 {
+    position: relative;
+    width: 372px;
+    height: 192px;
+  }
+  
+  .phone .vector-2 {
+    position: absolute;
+    width: 369px;
+    height: 190px;
+    top: 0;
+    left: 0;
+  }
+  
+  .phone .rectangle-12 {
+    position: absolute;
+    width: 301px;
+    height: 76px;
+    top: 116px;
+    left: 70px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    border: 3px solid;
+    border-color: transparent;
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 20px #ffffff80;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(26, 26, 26, 0.2)
+      )
+      1;
+  }
+  
+  .phone .flag-of-the-united-2 {
+    position: absolute;
+    width: 78px;
+    height: 79px;
+    top: 113px;
+    left: 69px;
+  }
+  
+  .phone .text-wrapper-23 {
+    position: absolute;
+    width: 130px;
+    top: 154px;
+    left: 137px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 15.7px;
+  }
+  
+  .phone .olympic-final-xm {
+    position: absolute;
+    width: 135px;
+    top: 137px;
+    left: 137px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 12.6px;
+    white-space: nowrap;
+  }
+  
+  .phone .rectangle-13 {
+    position: absolute;
+    width: 79px;
+    height: 32px;
+    top: 139px;
+    left: 277px;
+    background-color: #000000;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .rectangle-14 {
+    width: 40px;
+    height: 32px;
+    top: 139px;
+    left: 277px;
+    border-radius: 7px 0px 0px 7px;
+    position: absolute;
+    background-color: #fcb434;
+  }
+  
+  .phone .text-wrapper-24 {
+    width: 27px;
+    top: 152px;
+    left: 284px;
+    color: #000000;
+    font-size: 15px;
+    line-height: 15.7px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .phone .text-wrapper-25 {
+    width: 31px;
+    top: 152px;
+    left: 320px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 15.7px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .phone .text-wrapper-26 {
+    position: absolute;
+    width: 25px;
+    top: 143px;
+    left: 286px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 7.3px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-27 {
+    position: absolute;
+    width: 25px;
+    top: 143px;
+    left: 323px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 6.3px;
+    white-space: nowrap;
+  }
+  
+  .phone .group-6 {
+    position: absolute;
+    width: 432px;
+    height: 268px;
+    top: 55px;
+    left: 607px;
+  }
+  
+  .phone .overlap-6 {
+    position: relative;
+    width: 411px;
+    height: 270px;
+    top: -2px;
+  }
+  
+  .phone .vector-3 {
+    position: absolute;
+    width: 404px;
+    height: 264px;
+    top: 6px;
+    left: 0;
+  }
+  
+  .phone .rectangle-15 {
+    position: absolute;
+    width: 283px;
+    height: 167px;
+    top: 0;
+    left: 129px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    border: 3px solid;
+    border-color: transparent;
+    box-shadow: 0px 0px 20px #ffffff80;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(26, 26, 26, 0.2)
+      )
+      1;
+  }
+  
+  .phone .rectangle-16 {
+    position: absolute;
+    width: 244px;
+    height: 47px;
+    top: 38px;
+    left: 147px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .rectangle-17 {
+    position: absolute;
+    width: 244px;
+    height: 47px;
+    top: 95px;
+    left: 147px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .rectangle-18 {
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    top: 95px;
+    left: 272px;
+    background-color: #fcb434;
+    border-radius: 0px 7px 7px 0px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .rectangle-19 {
+    width: 42px;
+    height: 33px;
+    top: 45px;
+    left: 342px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #ffffff80;
+    position: absolute;
+    background-color: #fcb434;
+  }
+  
+  .phone .text-wrapper-28 {
+    width: 35px;
+    height: 17px;
+    top: 53px;
+    left: 345px;
+    color: #000000;
+    font-size: 15px;
+    line-height: 15.7px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .phone .rectangle-20 {
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    top: 105px;
+    left: 352px;
+    background-color: #000000;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .text-wrapper-29 {
+    width: 36px;
+    height: 17px;
+    top: 111px;
+    left: 350px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12.6px;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .phone .union-2 {
+    position: absolute;
+    width: 48px;
+    height: 47px;
+    top: 39px;
+    left: 147px;
+  }
+  
+  .phone .ellipse-2 {
+    position: absolute;
+    width: 13px;
+    height: 5px;
+    top: 49px;
+    left: 177px;
+    background-color: #adadad;
+    border-radius: 6.54px / 2.49px;
+    transform: rotate(46.59deg);
+    box-shadow: inset 0px 4px 4px #00000080;
+  }
+  
+  .phone .world-champ-xm {
+    position: absolute;
+    width: 175px;
+    top: 48px;
+    left: 199px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 10.5px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-30 {
+    position: absolute;
+    width: 152px;
+    top: 62px;
+    left: 199px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 13.6px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-31 {
+    position: absolute;
+    width: 64px;
+    top: 118px;
+    left: 284px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 12.6px;
+  }
+  
+  .phone .text-wrapper-32 {
+    position: absolute;
+    width: 24px;
+    height: 8px;
+    top: 60px;
+    left: 157px;
+    transform: rotate(-43.66deg);
+    font-family: "Open Sans", Helvetica;
+    font-weight: 800;
+    color: #0085c7;
+    font-size: 6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 6.3px;
+  }
+  
+  .phone .rectangle-21 {
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    top: 105px;
+    left: 153px;
+    background-color: #fcb434;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .text-wrapper-33 {
+    width: 35px;
+    height: 17px;
+    top: 111px;
+    left: 152px;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12.6px;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .phone .rectangle-22 {
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    top: 95px;
+    left: 222px;
+    background-color: #1a1a1a;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .text-wrapper-34 {
+    position: absolute;
+    width: 71px;
+    top: 118px;
+    left: 190px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 12.6px;
+  }
+  
+  .phone .text-wrapper-35 {
+    position: absolute;
+    width: 17px;
+    top: 118px;
+    left: 263px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 13.6px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-36 {
+    position: absolute;
+    width: 163px;
+    top: 13px;
+    left: 150px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 12.6px;
+    white-space: nowrap;
+  }
+  
+  .phone .diamond-doha-m {
+    position: absolute;
+    width: 89px;
+    height: 8px;
+    top: 99px;
+    left: 228px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 8px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 8.4px;
+    white-space: nowrap;
+  }
+  
+  .phone .group-7 {
+    position: absolute;
+    width: 465px;
+    height: 310px;
+    top: 4px;
+    left: 0;
+  }
+  
+  .phone .overlap-7 {
+    position: relative;
+    width: 459px;
+    height: 310px;
+  }
+  
+  .phone .text-wrapper-37 {
+    position: absolute;
+    width: 459px;
+    top: 0;
+    left: 0;
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 100px;
+    text-align: right;
+    letter-spacing: 8.00px;
+    line-height: 105.0px;
+  }
+  
+  .phone .text-wrapper-38 {
+    position: absolute;
+    width: 459px;
+    top: 190px;
+    left: 0;
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 100px;
+    text-align: right;
+    letter-spacing: 8.00px;
+    line-height: 105.0px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-39 {
+    position: absolute;
+    width: 360px;
+    top: 95px;
+    left: 99px;
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 100px;
+    text-align: right;
+    letter-spacing: 8.00px;
+    line-height: 105.0px;
+    white-space: nowrap;
+  }
+  
+  .phone .p {
+    position: absolute;
+    width: 137px;
+    top: 637px;
+    left: 292px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 13.6px;
+  }
+  
+  .phone .group-8 {
+    position: absolute;
+    width: 463px;
+    height: 124px;
+    top: 541px;
+    left: 17px;
+  }
+  
+  .phone .WIN-MONEY {
+    position: absolute;
+    width: 432px;
+    top: 334px;
+    left: 57px;
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: #fcb538;
+    font-size: 110px;
+    letter-spacing: 6.60px;
+    line-height: 97.9px;
+  }
+  
+  .phone .text-wrapper-40 {
+    position: absolute;
+    width: 222px;
+    top: 694px;
+    left: 57px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 19.5px;
+  }
+  
+  .phone .store-download-3 {
+    left: 166px;
+    position: absolute;
+    width: 202px;
+    height: 122px;
+    top: 687px;
+  }
+  
+  .phone .store-download-4 {
+    left: 26px;
+    position: absolute;
+    width: 202px;
+    height: 122px;
+    top: 687px;
+  }
+  
+  .phone .group-9 {
+    position: absolute;
+    width: 21px;
+    height: 36px;
+    top: 38px;
+    left: 36px;
+    object-fit: cover;
+  }
+  
+  .phone .overlap-8 {
+    position: absolute;
+    width: 737px;
+    height: 51px;
+    top: 29px;
+    left: 75px;
+  }
+  
+  .phone .text-wrapper-41 {
+    position: absolute;
+    width: 101px;
+    top: 0;
+    left: 0;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .phone .the-PREMIER-track-2 {
+    position: absolute;
+    width: 646px;
+    top: 22px;
+    left: 91px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 18.9px;
+  }
+  
+  .phone.laptop-wrapper {
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .phone .laptop {
+    background-color: rgba(255, 255, 255, 1.0);
+    overflow: hidden;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    width: 1297px;
+    height: 1367px;
+    position: relative;
+  }
+  
+  .phone .overlap-9 {
+    position: absolute;
+    width: 1551px;
+    height: 1232px;
+    top: 135px;
+    left: -11px;
+  }
+  
+  .phone .group-10 {
+    position: absolute;
+    width: 1297px;
+    height: 998px;
+    top: 234px;
+    left: 11px;
+  }
+  
+  .phone .iphone-pro-2 {
+    position: absolute;
+    width: 324px;
+    height: 669px;
+    top: 0;
+    left: 496px;
+  }
+  
+  .phone .screen-iphone-pro-wrapper {
+    position: relative;
+    width: 1297px;
+    height: 1367px;
+    top: -135px;
+    left: -485px;
+    background-image: url(https://c.animaapp.com/LvFrqCKW/img/iphone-12-pro-2.png);
+    background-size: 100% 100%;
+  }
+  
+  .phone .screen-iphone-pro-3 {
+    position: absolute;
+    width: 244px;
+    height: 642px;
+    top: 149px;
+    left: 516px;
+  }
+  
+  .phone .group-11 {
+    position: absolute;
+    width: 387px;
+    height: 191px;
+    top: 432px;
+    left: 249px;
+  }
+  
+  .phone .overlap-10 {
+    position: relative;
+    width: 378px;
+    height: 193px;
+    left: -3px;
+  }
+  
+  .phone .vector-4 {
+    position: absolute;
+    width: 369px;
+    height: 190px;
+    top: 0;
+    left: 9px;
+  }
+  
+  .phone .rectangle-23 {
+    position: absolute;
+    width: 301px;
+    height: 76px;
+    top: 117px;
+    left: 2px;
+    background-color: #1a1a1a;
+    border-radius: 7px;
+    border: 3px solid;
+    border-color: transparent;
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 20px #ffffff80;
+    border-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(26, 26, 26, 0.2)
+      )
+      1;
+  }
+  
+  .phone .flag-of-the-united-3 {
+    position: absolute;
+    width: 78px;
+    height: 79px;
+    top: 114px;
+    left: 0;
+  }
+  
+  .phone .text-wrapper-42 {
+    position: absolute;
+    width: 130px;
+    top: 155px;
+    left: 68px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 15.7px;
+  }
+  
+  .phone .olympic-final-2 {
+    position: absolute;
+    width: 135px;
+    top: 138px;
+    left: 68px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 12.6px;
+    white-space: nowrap;
+  }
+  
+  .phone .rectangle-24 {
+    position: absolute;
+    width: 79px;
+    height: 32px;
+    top: 140px;
+    left: 208px;
+    background-color: #000000;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px #ffffff80;
+  }
+  
+  .phone .rectangle-25 {
+    width: 40px;
+    height: 32px;
+    top: 140px;
+    left: 208px;
+    border-radius: 7px 0px 0px 7px;
+    position: absolute;
+    background-color: #fcb434;
+  }
+  
+  .phone .text-wrapper-43 {
+    width: 27px;
+    top: 153px;
+    left: 215px;
+    color: #000000;
+    font-size: 15px;
+    line-height: 15.7px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .phone .text-wrapper-44 {
+    width: 31px;
+    top: 153px;
+    left: 252px;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 15.7px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Jockey One", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .phone .text-wrapper-45 {
+    position: absolute;
+    width: 25px;
+    top: 144px;
+    left: 218px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 7.3px;
+    white-space: nowrap;
+  }
+  
+  .phone .text-wrapper-46 {
+    position: absolute;
+    width: 25px;
+    top: 144px;
+    left: 254px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 6.3px;
+    white-space: nowrap;
+  }
+  
+  .phone .group-12 {
+    position: absolute;
+    width: 432px;
+    height: 268px;
+    top: 55px;
+    left: 639px;
+  }
+  
+  .phone .rectangle-26 {
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    top: 95px;
+    left: 222px;
+    background-color: #1a1a1a;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 20px #ffffff73;
+  }
+  
+  .phone .group-13 {
+    position: absolute;
+    width: 465px;
+    height: 310px;
+    top: 45px;
+    left: 0;
+  }
+  
+  .phone .WIN-MONEY-2 {
+    position: absolute;
+    width: 702px;
+    top: 294px;
+    left: 849px;
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: #fcb538;
+    font-size: 110px;
+    letter-spacing: 6.60px;
+    line-height: 97.9px;
+  }
+  
+  .phone .text-wrapper-47 {
+    position: absolute;
+    width: 222px;
+    top: 528px;
+    left: 855px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 19.5px;
+  }
+  
+  .phone .and-your-first-bet-s-2 {
+    position: absolute;
+    width: 137px;
+    top: 467px;
+    left: 311px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 13.6px;
+  }
+  
+  .phone .group-14 {
+    position: absolute;
+    width: 463px;
+    height: 124px;
+    top: 371px;
+    left: 36px;
+  }
+  
+  .phone .store-download-5 {
+    left: 964px;
+    position: absolute;
+    width: 202px;
+    height: 122px;
+    top: 521px;
+  }
+  
+  .phone .store-download-6 {
+    left: 824px;
+    position: absolute;
+    width: 202px;
+    height: 122px;
+    top: 521px;
+  }
+  
+  @media (max-width: 1039px) {
+    .phone.half-size-wrapper {
+      display: none !important;
+    }
+    .phone.laptop-wrapper {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 1040px) and (max-width: 1296px) {
+    .phone.phone-wrapper {
+      display: none !important;
+    }
+    .phone.laptop-wrapper {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 1297px) {
+    .phone.phone-wrapper {
+      display: none !important;
+    }
+    .phone.half-size-wrapper {
+      display: none !important;
+    }
+  }
+  
