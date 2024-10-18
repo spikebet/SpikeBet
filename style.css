@@ -1,45 +1,45 @@
-.phone.phone-wrapper {
-    background-color: rgba(255, 255, 255, 1.0);
+.spike.phone-wrapper {
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-  }
-  
-  .phone .div {
-    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.spike .div {
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     width: 393px;
     height: 1111px;
     position: relative;
-  }
-  
-  .phone .overlap {
+}
+
+.spike .overlap {
     position: absolute;
     width: 396px;
     height: 814px;
     top: 297px;
     left: 0;
-  }
-  
-  .phone .group {
+}
+
+.spike .group {
     position: absolute;
     width: 393px;
     height: 607px;
     top: 207px;
     left: 0;
-  }
-  
-  .phone .iphone-pro {
+}
+
+.spike .iphone-pro {
     position: absolute;
     width: 238px;
     height: 491px;
     top: 43px;
     left: 75px;
-  }
-  
-  .phone .overlap-group {
+}
+
+.spike .overlap-group {
     position: relative;
     width: 393px;
     height: 1111px;
@@ -47,40 +47,40 @@
     left: -75px;
     background-image: url(https://c.animaapp.com/LvFrqCKW/img/iphone-12-pro@2x.png);
     background-size: 100% 100%;
-  }
-  
-  .phone .screen-iphone-pro {
+}
+
+.spike .screen-iphone-pro {
     position: absolute;
     width: 179px;
     height: 471px;
     top: 350px;
     left: 98px;
-  }
-  
-  .phone .overlap-group-wrapper {
+}
+
+.spike .overlap-group-wrapper {
     position: absolute;
     width: 228px;
     height: 110px;
     top: 682px;
     left: 22px;
-  }
-  
-  .phone .overlap-group-2 {
+}
+
+.spike .overlap-group-2 {
     position: relative;
     width: 226px;
     height: 120px;
     left: -10px;
-  }
-  
-  .phone .vector {
+}
+
+.spike .vector {
     position: absolute;
     width: 211px;
     height: 108px;
     top: 0;
     left: 15px;
-  }
-  
-  .phone .rectangle {
+}
+
+.spike .rectangle {
     position: absolute;
     width: 174px;
     height: 45px;
@@ -92,23 +92,20 @@
     border-color: transparent;
     transform: rotate(180deg);
     box-shadow: 0px 0px 20px #ffffff80;
-    border-image: linear-gradient(
-        to bottom,
-        rgb(255, 255, 255),
-        rgba(26, 26, 26, 0.2)
-      )
-      1;
-  }
-  
-  .phone .flag-of-the-united {
+    border-image: linear-gradient(to bottom,
+            rgb(255, 255, 255),
+            rgba(26, 26, 26, 0.2)) 1;
+}
+
+.spike .flag-of-the-united {
     position: absolute;
     width: 62px;
     height: 62px;
     top: 57px;
     left: 0;
-  }
-  
-  .phone .text-wrapper {
+}
+
+.spike .text-wrapper {
     position: absolute;
     width: 74px;
     top: 89px;
@@ -119,9 +116,9 @@
     font-size: 10px;
     letter-spacing: 0;
     line-height: 10.5px;
-  }
-  
-  .phone .olympic-final {
+}
+
+.spike .olympic-final {
     position: absolute;
     width: 77px;
     top: 79px;
@@ -133,17 +130,17 @@
     letter-spacing: 0;
     line-height: 7.3px;
     white-space: nowrap;
-  }
-  
-  .phone .span {
+}
+
+.spike .span {
     color: #fcb434;
-  }
-  
-  .phone .text-wrapper-2 {
+}
+
+.spike .text-wrapper-2 {
     color: #ffffff;
-  }
-  
-  .phone .rectangle-2 {
+}
+
+.spike .rectangle-2 {
     position: absolute;
     width: 45px;
     height: 18px;
@@ -152,9 +149,9 @@
     background-color: #000000;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .rectangle-3 {
+}
+
+.spike .rectangle-3 {
     position: absolute;
     width: 23px;
     height: 18px;
@@ -162,9 +159,9 @@
     left: 128px;
     background-color: #fcb434;
     border-radius: 5px 0px 0px 5px;
-  }
-  
-  .phone .text-wrapper-3 {
+}
+
+.spike .text-wrapper-3 {
     width: 16px;
     top: 88px;
     left: 132px;
@@ -177,9 +174,9 @@
     text-align: center;
     letter-spacing: 0;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-4 {
+}
+
+.spike .text-wrapper-4 {
     width: 18px;
     top: 88px;
     left: 153px;
@@ -192,9 +189,9 @@
     text-align: center;
     letter-spacing: 0;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-5 {
+}
+
+.spike .text-wrapper-5 {
     position: absolute;
     width: 15px;
     top: 83px;
@@ -207,9 +204,9 @@
     letter-spacing: 0;
     line-height: 4.2px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-6 {
+}
+
+.spike .text-wrapper-6 {
     position: absolute;
     width: 15px;
     top: 83px;
@@ -222,32 +219,32 @@
     letter-spacing: 0;
     line-height: 3.1px;
     white-space: nowrap;
-  }
-  
-  .phone .overlap-wrapper {
+}
+
+.spike .overlap-wrapper {
     position: absolute;
     width: 294px;
     height: 178px;
     top: 0;
     left: 102px;
-  }
-  
-  .phone .overlap-2 {
+}
+
+.spike .overlap-2 {
     position: relative;
     width: 274px;
     height: 180px;
     top: -2px;
-  }
-  
-  .phone .img {
+}
+
+.spike .img {
     position: absolute;
     width: 269px;
     height: 175px;
     top: 4px;
     left: 0;
-  }
-  
-  .phone .rectangle-4 {
+}
+
+.spike .rectangle-4 {
     position: absolute;
     width: 189px;
     height: 112px;
@@ -258,15 +255,12 @@
     border: 3px solid;
     border-color: transparent;
     box-shadow: 0px 0px 20px #ffffff80;
-    border-image: linear-gradient(
-        to bottom,
-        rgb(255, 255, 255),
-        rgba(26, 26, 26, 0.2)
-      )
-      1;
-  }
-  
-  .phone .rectangle-5 {
+    border-image: linear-gradient(to bottom,
+            rgb(255, 255, 255),
+            rgba(26, 26, 26, 0.2)) 1;
+}
+
+.spike .rectangle-5 {
     position: absolute;
     width: 162px;
     height: 31px;
@@ -275,9 +269,9 @@
     background-color: #1a1a1a;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .rectangle-6 {
+}
+
+.spike .rectangle-6 {
     position: absolute;
     width: 162px;
     height: 31px;
@@ -286,9 +280,9 @@
     background-color: #1a1a1a;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .rectangle-7 {
+}
+
+.spike .rectangle-7 {
     position: absolute;
     width: 79px;
     height: 31px;
@@ -297,9 +291,9 @@
     background-color: #fcb434;
     border-radius: 0px 5px 5px 0px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .rectangle-8 {
+}
+
+.spike .rectangle-8 {
     position: absolute;
     width: 28px;
     height: 22px;
@@ -308,9 +302,9 @@
     background-color: #fcb434;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .text-wrapper-7 {
+}
+
+.spike .text-wrapper-7 {
     width: 23px;
     height: 11px;
     top: 36px;
@@ -324,9 +318,9 @@
     text-align: center;
     letter-spacing: 0;
     white-space: nowrap;
-  }
-  
-  .phone .rectangle-9 {
+}
+
+.spike .rectangle-9 {
     position: absolute;
     width: 21px;
     height: 19px;
@@ -335,9 +329,9 @@
     background-color: #000000;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .text-wrapper-8 {
+}
+
+.spike .text-wrapper-8 {
     width: 24px;
     height: 11px;
     top: 74px;
@@ -351,17 +345,17 @@
     text-align: center;
     letter-spacing: 0;
     white-space: nowrap;
-  }
-  
-  .phone .union {
+}
+
+.spike .union {
     position: absolute;
     width: 37px;
     height: 37px;
     top: 23px;
     left: 95px;
-  }
-  
-  .phone .ellipse {
+}
+
+.spike .ellipse {
     position: absolute;
     width: 9px;
     height: 3px;
@@ -371,9 +365,9 @@
     border-radius: 4.34px / 1.65px;
     transform: rotate(46.59deg);
     box-shadow: inset 0px 4px 4px #00000080;
-  }
-  
-  .phone .world-champ {
+}
+
+.spike .world-champ {
     position: absolute;
     width: 116px;
     top: 32px;
@@ -385,9 +379,9 @@
     letter-spacing: 0;
     line-height: 7.3px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-9 {
+}
+
+.spike .text-wrapper-9 {
     position: absolute;
     width: 101px;
     top: 42px;
@@ -399,9 +393,9 @@
     letter-spacing: 0;
     line-height: 9.4px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-10 {
+}
+
+.spike .text-wrapper-10 {
     position: absolute;
     width: 42px;
     top: 79px;
@@ -414,9 +408,9 @@
     letter-spacing: 0;
     line-height: 9.4px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-11 {
+}
+
+.spike .text-wrapper-11 {
     position: absolute;
     width: 16px;
     height: 5px;
@@ -430,9 +424,9 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 4.2px;
-  }
-  
-  .phone .rectangle-10 {
+}
+
+.spike .rectangle-10 {
     position: absolute;
     width: 21px;
     height: 19px;
@@ -441,9 +435,9 @@
     background-color: #fcb434;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .text-wrapper-12 {
+}
+
+.spike .text-wrapper-12 {
     width: 23px;
     height: 11px;
     top: 74px;
@@ -457,9 +451,9 @@
     text-align: center;
     letter-spacing: 0;
     white-space: nowrap;
-  }
-  
-  .phone .rectangle-11 {
+}
+
+.spike .rectangle-11 {
     position: absolute;
     width: 66px;
     height: 11px;
@@ -468,9 +462,9 @@
     background-color: #1a1a1a;
     border-radius: 0px 0px 5px 5px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .text-wrapper-13 {
+}
+
+.spike .text-wrapper-13 {
     position: absolute;
     width: 47px;
     top: 79px;
@@ -483,9 +477,9 @@
     letter-spacing: 0;
     line-height: 9.4px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-14 {
+}
+
+.spike .text-wrapper-14 {
     position: absolute;
     width: 11px;
     top: 79px;
@@ -497,9 +491,9 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 8.4px;
-  }
-  
-  .phone .text-wrapper-15 {
+}
+
+.spike .text-wrapper-15 {
     position: absolute;
     width: 109px;
     top: 9px;
@@ -511,9 +505,9 @@
     letter-spacing: 0;
     line-height: 10.5px;
     white-space: nowrap;
-  }
-  
-  .phone .diamond-doha {
+}
+
+.spike .diamond-doha {
     position: absolute;
     width: 59px;
     height: 5px;
@@ -527,9 +521,9 @@
     letter-spacing: 0;
     line-height: 5.2px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-16 {
+}
+
+.spike .text-wrapper-16 {
     position: absolute;
     width: 222px;
     top: 708px;
@@ -540,33 +534,33 @@
     font-size: 15px;
     letter-spacing: 0;
     line-height: 19.5px;
-  }
-  
-  .phone .store-download {
+}
+
+.spike .store-download {
     position: absolute;
     width: 202px;
     height: 113px;
     top: 701px;
     left: 167px;
-  }
-  
-  .phone .store-download-2 {
+}
+
+.spike .store-download-2 {
     position: absolute;
     width: 202px;
     height: 113px;
     top: 701px;
     left: 27px;
-  }
-  
-  .phone .overlap-3 {
+}
+
+.spike .overlap-3 {
     position: absolute;
     width: 579px;
     height: 209px;
     top: 80px;
     left: -97px;
-  }
-  
-  .phone .text-wrapper-17 {
+}
+
+.spike .text-wrapper-17 {
     position: absolute;
     width: 579px;
     height: 83px;
@@ -579,9 +573,9 @@
     text-align: center;
     letter-spacing: 3.20px;
     line-height: 42.0px;
-  }
-  
-  .phone .text-wrapper-18 {
+}
+
+.spike .text-wrapper-18 {
     position: absolute;
     width: 295px;
     height: 68px;
@@ -594,9 +588,9 @@
     text-align: center;
     letter-spacing: 2.70px;
     line-height: 40.0px;
-  }
-  
-  .phone .and-your-first-bet-s {
+}
+
+.spike .and-your-first-bet-s {
     position: absolute;
     width: 101px;
     top: 174px;
@@ -608,26 +602,26 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 10.5px;
-  }
-  
-  .phone .group-2 {
+}
+
+.spike .group-2 {
     position: absolute;
     width: 363px;
     height: 113px;
     top: 96px;
     left: 112px;
-  }
-  
-  .phone .group-3 {
+}
+
+.spike .group-3 {
     position: absolute;
     width: 18px;
     height: 30px;
     top: 21px;
     left: 17px;
     object-fit: cover;
-  }
-  
-  .phone .text-wrapper-19 {
+}
+
+.spike .text-wrapper-19 {
     position: absolute;
     width: 63px;
     top: 17px;
@@ -638,9 +632,9 @@
     font-size: 25px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .phone .the-PREMIER-track {
+}
+
+.spike .the-PREMIER-track {
     position: absolute;
     width: 332px;
     top: 30px;
@@ -651,66 +645,66 @@
     font-size: 12px;
     letter-spacing: 0;
     line-height: 12.6px;
-  }
-  
-  .phone .text-wrapper-20 {
+}
+
+.spike .text-wrapper-20 {
     font-weight: 700;
     color: #ffffff;
-  }
-  
-  .phone .text-wrapper-21 {
+}
+
+.spike .text-wrapper-21 {
     font-weight: 700;
     color: #22222a;
-  }
-  
-  .phone .text-wrapper-22 {
+}
+
+.spike .text-wrapper-22 {
     font-weight: 700;
     font-style: italic;
     color: #fcb434;
-  }
-  
-  .phone.half-size-wrapper {
+}
+
+.spike.half-size-wrapper {
     background-color: rgba(255, 255, 255, 1.0);
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-  }
-  
-  .phone .half-size {
+}
+
+.spike .half-size {
     background-color: rgba(255, 255, 255, 1.0);
     overflow: hidden;
     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     width: 1040px;
     height: 1367px;
     position: relative;
-  }
-  
-  .phone .overlap-4 {
+}
+
+.spike .overlap-4 {
     position: absolute;
     width: 1042px;
     height: 1206px;
     top: 161px;
     left: -2px;
-  }
-  
-  .phone .group-4 {
+}
+
+.spike .group-4 {
     position: absolute;
     width: 1040px;
     height: 972px;
     top: 234px;
     left: 2px;
-  }
-  
-  .phone .div-wrapper {
+}
+
+.spike .div-wrapper {
     position: absolute;
     width: 324px;
     height: 669px;
     top: 0;
     left: 508px;
-  }
-  
-  .phone .overlap-5 {
+}
+
+.spike .overlap-5 {
     position: relative;
     width: 1040px;
     height: 1367px;
@@ -718,39 +712,39 @@
     left: -506px;
     background-image: url(https://c.animaapp.com/LvFrqCKW/img/iphone-12-pro-1.png);
     background-size: 100% 100%;
-  }
-  
-  .phone .screen-iphone-pro-2 {
+}
+
+.spike .screen-iphone-pro-2 {
     position: absolute;
     width: 244px;
     height: 642px;
     top: 175px;
     left: 537px;
-  }
-  
-  .phone .group-5 {
+}
+
+.spike .group-5 {
     position: absolute;
     width: 382px;
     height: 190px;
     top: 680px;
     left: 584px;
-  }
-  
-  .phone .overlap-group-3 {
+}
+
+.spike .overlap-group-3 {
     position: relative;
     width: 372px;
     height: 192px;
-  }
-  
-  .phone .vector-2 {
+}
+
+.spike .vector-2 {
     position: absolute;
     width: 369px;
     height: 190px;
     top: 0;
     left: 0;
-  }
-  
-  .phone .rectangle-12 {
+}
+
+.spike .rectangle-12 {
     position: absolute;
     width: 301px;
     height: 76px;
@@ -762,23 +756,20 @@
     border-color: transparent;
     transform: rotate(180deg);
     box-shadow: 0px 0px 20px #ffffff80;
-    border-image: linear-gradient(
-        to bottom,
-        rgb(255, 255, 255),
-        rgba(26, 26, 26, 0.2)
-      )
-      1;
-  }
-  
-  .phone .flag-of-the-united-2 {
+    border-image: linear-gradient(to bottom,
+            rgb(255, 255, 255),
+            rgba(26, 26, 26, 0.2)) 1;
+}
+
+.spike .flag-of-the-united-2 {
     position: absolute;
     width: 78px;
     height: 79px;
     top: 113px;
     left: 69px;
-  }
-  
-  .phone .text-wrapper-23 {
+}
+
+.spike .text-wrapper-23 {
     position: absolute;
     width: 130px;
     top: 154px;
@@ -789,9 +780,9 @@
     font-size: 15px;
     letter-spacing: 0;
     line-height: 15.7px;
-  }
-  
-  .phone .olympic-final-xm {
+}
+
+.spike .olympic-final-xm {
     position: absolute;
     width: 135px;
     top: 137px;
@@ -803,9 +794,9 @@
     letter-spacing: 0;
     line-height: 12.6px;
     white-space: nowrap;
-  }
-  
-  .phone .rectangle-13 {
+}
+
+.spike .rectangle-13 {
     position: absolute;
     width: 79px;
     height: 32px;
@@ -814,9 +805,9 @@
     background-color: #000000;
     border-radius: 7px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .rectangle-14 {
+}
+
+.spike .rectangle-14 {
     width: 40px;
     height: 32px;
     top: 139px;
@@ -824,9 +815,9 @@
     border-radius: 7px 0px 0px 7px;
     position: absolute;
     background-color: #fcb434;
-  }
-  
-  .phone .text-wrapper-24 {
+}
+
+.spike .text-wrapper-24 {
     width: 27px;
     top: 152px;
     left: 284px;
@@ -839,9 +830,9 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-  }
-  
-  .phone .text-wrapper-25 {
+}
+
+.spike .text-wrapper-25 {
     width: 31px;
     top: 152px;
     left: 320px;
@@ -854,9 +845,9 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-  }
-  
-  .phone .text-wrapper-26 {
+}
+
+.spike .text-wrapper-26 {
     position: absolute;
     width: 25px;
     top: 143px;
@@ -869,9 +860,9 @@
     letter-spacing: 0;
     line-height: 7.3px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-27 {
+}
+
+.spike .text-wrapper-27 {
     position: absolute;
     width: 25px;
     top: 143px;
@@ -884,51 +875,32 @@
     letter-spacing: 0;
     line-height: 6.3px;
     white-space: nowrap;
-  }
-  
-  .phone .group-6 {
+}
+
+.spike .group-6 {
     position: absolute;
     width: 432px;
     height: 268px;
     top: 55px;
     left: 607px;
-  }
-  
-  .phone .overlap-6 {
+}
+
+.spike .large-popout .popout-group {
     position: relative;
     width: 411px;
     height: 270px;
     top: -2px;
-  }
-  
-  .phone .vector-3 {
+}
+
+.spike .large-extruding-vector{
     position: absolute;
     width: 404px;
     height: 264px;
     top: 6px;
     left: 0;
-  }
-  
-  .phone .rectangle-15 {
-    position: absolute;
-    width: 283px;
-    height: 167px;
-    top: 0;
-    left: 129px;
-    background-color: #1a1a1a;
-    border-radius: 7px;
-    border: 3px solid;
-    border-color: transparent;
-    box-shadow: 0px 0px 20px #ffffff80;
-    border-image: linear-gradient(
-        to bottom,
-        rgb(255, 255, 255),
-        rgba(26, 26, 26, 0.2)
-      )
-      1;
-  }
-  
-  .phone .rectangle-16 {
+}
+
+.spike .rectangle-16 {
     position: absolute;
     width: 244px;
     height: 47px;
@@ -937,9 +909,9 @@
     background-color: #1a1a1a;
     border-radius: 7px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .rectangle-17 {
+}
+
+.spike .rectangle-17 {
     position: absolute;
     width: 244px;
     height: 47px;
@@ -948,9 +920,9 @@
     background-color: #1a1a1a;
     border-radius: 7px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .rectangle-18 {
+}
+
+.spike .rectangle-18 {
     position: absolute;
     width: 119px;
     height: 47px;
@@ -959,9 +931,9 @@
     background-color: #fcb434;
     border-radius: 0px 7px 7px 0px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .rectangle-19 {
+}
+
+.spike .rectangle-19 {
     width: 42px;
     height: 33px;
     top: 45px;
@@ -970,9 +942,9 @@
     box-shadow: 0px 0px 20px #ffffff80;
     position: absolute;
     background-color: #fcb434;
-  }
-  
-  .phone .text-wrapper-28 {
+}
+
+.spike .text-wrapper-28 {
     width: 35px;
     height: 17px;
     top: 53px;
@@ -986,9 +958,9 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-  }
-  
-  .phone .rectangle-20 {
+}
+
+.spike .rectangle-20 {
     position: absolute;
     width: 32px;
     height: 28px;
@@ -997,9 +969,9 @@
     background-color: #000000;
     border-radius: 7px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .text-wrapper-29 {
+}
+
+.spike .text-wrapper-29 {
     width: 36px;
     height: 17px;
     top: 111px;
@@ -1012,17 +984,17 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-  }
-  
-  .phone .union-2 {
+}
+
+.spike .baton {
     position: absolute;
     width: 48px;
     height: 47px;
     top: 39px;
     left: 147px;
-  }
-  
-  .phone .ellipse-2 {
+}
+
+.spike .baton-ellipse {
     position: absolute;
     width: 13px;
     height: 5px;
@@ -1032,9 +1004,9 @@
     border-radius: 6.54px / 2.49px;
     transform: rotate(46.59deg);
     box-shadow: inset 0px 4px 4px #00000080;
-  }
-  
-  .phone .world-champ-xm {
+}
+
+.spike .world-champ-xm {
     position: absolute;
     width: 175px;
     top: 48px;
@@ -1046,9 +1018,9 @@
     letter-spacing: 0;
     line-height: 10.5px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-30 {
+}
+
+.spike .text-wrapper-30 {
     position: absolute;
     width: 152px;
     top: 62px;
@@ -1060,9 +1032,9 @@
     letter-spacing: 0;
     line-height: 13.6px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-31 {
+}
+
+.spike .text-wrapper-31 {
     position: absolute;
     width: 64px;
     top: 118px;
@@ -1074,9 +1046,9 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 12.6px;
-  }
-  
-  .phone .text-wrapper-32 {
+}
+
+.spike .text-wrapper-32 {
     position: absolute;
     width: 24px;
     height: 8px;
@@ -1090,9 +1062,9 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 6.3px;
-  }
-  
-  .phone .rectangle-21 {
+}
+
+.spike .rectangle-21 {
     position: absolute;
     width: 32px;
     height: 28px;
@@ -1101,9 +1073,9 @@
     background-color: #fcb434;
     border-radius: 7px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .text-wrapper-33 {
+}
+
+.spike .text-wrapper-33 {
     width: 35px;
     height: 17px;
     top: 111px;
@@ -1116,9 +1088,9 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-  }
-  
-  .phone .rectangle-22 {
+}
+
+.spike .rectangle-22 {
     position: absolute;
     width: 100px;
     height: 16px;
@@ -1127,9 +1099,9 @@
     background-color: #1a1a1a;
     border-radius: 0px 0px 7px 7px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .text-wrapper-34 {
+}
+
+.spike .text-wrapper-34 {
     position: absolute;
     width: 71px;
     top: 118px;
@@ -1141,9 +1113,9 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 12.6px;
-  }
-  
-  .phone .text-wrapper-35 {
+}
+
+.spike .text-wrapper-35 {
     position: absolute;
     width: 17px;
     top: 118px;
@@ -1156,9 +1128,9 @@
     letter-spacing: 0;
     line-height: 13.6px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-36 {
+}
+
+.spike .text-wrapper-36 {
     position: absolute;
     width: 163px;
     top: 13px;
@@ -1170,9 +1142,9 @@
     letter-spacing: 0;
     line-height: 12.6px;
     white-space: nowrap;
-  }
-  
-  .phone .diamond-doha-m {
+}
+
+.spike .diamond-doha-m {
     position: absolute;
     width: 89px;
     height: 8px;
@@ -1186,23 +1158,23 @@
     letter-spacing: 0;
     line-height: 8.4px;
     white-space: nowrap;
-  }
-  
-  .phone .group-7 {
+}
+
+.spike .group-7 {
     position: absolute;
     width: 465px;
     height: 310px;
     top: 4px;
     left: 0;
-  }
-  
-  .phone .overlap-7 {
+}
+
+.spike .overlap-7 {
     position: relative;
     width: 459px;
     height: 310px;
-  }
-  
-  .phone .text-wrapper-37 {
+}
+
+.spike .text-wrapper-37 {
     position: absolute;
     width: 459px;
     top: 0;
@@ -1214,9 +1186,9 @@
     text-align: right;
     letter-spacing: 8.00px;
     line-height: 105.0px;
-  }
-  
-  .phone .text-wrapper-38 {
+}
+
+.spike .text-wrapper-38 {
     position: absolute;
     width: 459px;
     top: 190px;
@@ -1229,9 +1201,9 @@
     letter-spacing: 8.00px;
     line-height: 105.0px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-39 {
+}
+
+.spike .text-wrapper-39 {
     position: absolute;
     width: 360px;
     top: 95px;
@@ -1244,9 +1216,9 @@
     letter-spacing: 8.00px;
     line-height: 105.0px;
     white-space: nowrap;
-  }
-  
-  .phone .p {
+}
+
+.spike .p {
     position: absolute;
     width: 137px;
     top: 637px;
@@ -1258,17 +1230,17 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 13.6px;
-  }
-  
-  .phone .group-8 {
+}
+
+.spike .group-8 {
     position: absolute;
     width: 463px;
     height: 124px;
     top: 541px;
     left: 17px;
-  }
-  
-  .phone .WIN-MONEY {
+}
+
+.spike .WIN-MONEY {
     position: absolute;
     width: 432px;
     top: 334px;
@@ -1279,9 +1251,9 @@
     font-size: 110px;
     letter-spacing: 6.60px;
     line-height: 97.9px;
-  }
-  
-  .phone .text-wrapper-40 {
+}
+
+.spike .text-wrapper-40 {
     position: absolute;
     width: 222px;
     top: 694px;
@@ -1292,42 +1264,58 @@
     font-size: 15px;
     letter-spacing: 0;
     line-height: 19.5px;
-  }
-  
-  .phone .store-download-3 {
+}
+
+.spike .store-download-3 {
     left: 166px;
     position: absolute;
     width: 202px;
     height: 122px;
     top: 687px;
-  }
-  
-  .phone .store-download-4 {
+}
+
+.spike .store-download-4 {
     left: 26px;
     position: absolute;
     width: 202px;
     height: 122px;
     top: 687px;
-  }
-  
-  .phone .group-9 {
+}
+
+.spike .spikeLogo {
     position: absolute;
     width: 21px;
-    height: 36px;
-    top: 38px;
+    top: 20px;
     left: 36px;
     object-fit: cover;
-  }
-  
-  .phone .overlap-8 {
+}
+
+.spike .topbar {
     position: absolute;
     width: 737px;
     height: 51px;
-    top: 29px;
+    top: 20px;
     left: 75px;
-  }
-  
-  .phone .text-wrapper-41 {
+}
+
+.spike .contact-corner {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    font-family: "Open Sans", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.spike .contact-corner a {
+    text-decoration: none;
+    color: white;
+}
+
+.spike .spike-corner {
     position: absolute;
     width: 101px;
     top: 0;
@@ -1335,135 +1323,202 @@
     font-family: "Jockey One", Helvetica;
     font-weight: 400;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 25px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .phone .the-PREMIER-track-2 {
+}
+
+.spike .the-PREMIER-track-2 {
     position: absolute;
     width: 646px;
-    top: 22px;
-    left: 91px;
+    top: 13px;
+    left: 80px;
     font-family: "Open Sans", Helvetica;
-    font-weight: 400;
+    font-weight: 200;
     color: transparent;
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 0;
     line-height: 18.9px;
-  }
-  
-  .phone.laptop-wrapper {
-    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.input-button-container {
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    top: 410px;
+    left: 70px;
+    display: flex;
+    margin: 0 auto;
+}
+
+input[type="email"] {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #e0a528;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-family: "Open Sans";
+    font-size: 12px;
+}
+
+.submit-btn {
+    background-color: #e0a528;
+    color: white;
+    border: 2px solid #e0a528;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #c28d23;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spike.laptop-wrapper {
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-  }
-  
-  .phone .laptop {
-    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.spike .laptop {
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-    width: 1297px;
+    width: 100%;
     height: 1367px;
     position: relative;
-  }
-  
-  .phone .overlap-9 {
+}
+
+.spike .elements {
     position: absolute;
-    width: 1551px;
+    width: 90vw;
     height: 1232px;
-    top: 135px;
-    left: -11px;
-  }
-  
-  .phone .group-10 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spike .tracklines {
     position: absolute;
-    width: 1297px;
-    height: 998px;
-    top: 234px;
-    left: 11px;
-  }
-  
-  .phone .iphone-pro-2 {
+    width: 2539px;
+    height: 2543.28;
+    top: 219px;
+    left: -827px;
+}
+
+.spike .iphone-pro {
     position: absolute;
     width: 324px;
     height: 669px;
     top: 0;
     left: 496px;
-  }
-  
-  .phone .screen-iphone-pro-wrapper {
+}
+
+.spike .screen-iphone-pro-wrapper {
     position: relative;
-    width: 1297px;
-    height: 1367px;
-    top: -135px;
-    left: -485px;
-    background-image: url(https://c.animaapp.com/LvFrqCKW/img/iphone-12-pro-2.png);
+    width: 282.1px;
+    height: 669px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: 
+        drop-shadow(0px 0px 200px #ffd07e66)
+        drop-shadow(0px 0px 100px #ffd07e66)
+        drop-shadow(0px 0px 10px #ffd07e66)
+        drop-shadow(0px 0px 5px #ffd07e66)
+        drop-shadow(0px 0px 50.24px #FFF);
+    background-image: url('./assets/iPhone-12-Pro.png');
     background-size: 100% 100%;
-  }
-  
-  .phone .screen-iphone-pro-3 {
+}
+
+.spike .screen-iphone-pro {
     position: absolute;
     width: 244px;
     height: 642px;
-    top: 149px;
-    left: 516px;
-  }
-  
-  .phone .group-11 {
+    top: 13.58px;
+    left: 10px;
+}
+
+.spike .small-popout {
     position: absolute;
     width: 387px;
     height: 191px;
     top: 432px;
     left: 249px;
-  }
-  
-  .phone .overlap-10 {
+}
+
+.spike .small-popout .popout-group {
     position: relative;
     width: 378px;
     height: 193px;
     left: -3px;
-  }
-  
-  .phone .vector-4 {
+}
+
+.spike .extruding-vector {
     position: absolute;
     width: 369px;
     height: 190px;
     top: 0;
     left: 9px;
-  }
-  
-  .phone .rectangle-23 {
+}
+
+.spike .small-popout .popout-rectangle {
     position: absolute;
-    width: 301px;
+    width: 310px;
     height: 76px;
     top: 117px;
-    left: 2px;
-    background-color: #1a1a1a;
+    left: -5px;
+    background: linear-gradient(-25deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     border-radius: 7px;
-    border: 3px solid;
     border-color: transparent;
     transform: rotate(180deg);
-    box-shadow: 0px 0px 20px #ffffff80;
-    border-image: linear-gradient(
-        to bottom,
-        rgb(255, 255, 255),
-        rgba(26, 26, 26, 0.2)
-      )
-      1;
-  }
-  
-  .phone .flag-of-the-united-3 {
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
+    
+    &:before {
+        content: '';
+        position: absolute;
+        top: 3px; right: 0; bottom: 0; left: 3px;
+        width: 304px;
+        height: 70px;
+        z-index: -1;
+        border-radius: inherit;
+        background-color: #1a1a1a;
+    }
+}
+
+.spike .US-flag {
     position: absolute;
     width: 78px;
     height: 79px;
     top: 114px;
     left: 0;
-  }
-  
-  .phone .text-wrapper-42 {
+}
+
+.spike .text-wrapper-42 {
     position: absolute;
     width: 130px;
     top: 155px;
@@ -1474,9 +1529,9 @@
     font-size: 15px;
     letter-spacing: 0;
     line-height: 15.7px;
-  }
-  
-  .phone .olympic-final-2 {
+}
+
+.spike .olympic-final-2 {
     position: absolute;
     width: 135px;
     top: 138px;
@@ -1488,9 +1543,9 @@
     letter-spacing: 0;
     line-height: 12.6px;
     white-space: nowrap;
-  }
-  
-  .phone .rectangle-24 {
+}
+
+.spike .rectangle-24 {
     position: absolute;
     width: 79px;
     height: 32px;
@@ -1499,9 +1554,9 @@
     background-color: #000000;
     border-radius: 7px;
     box-shadow: 0px 0px 20px #ffffff80;
-  }
-  
-  .phone .rectangle-25 {
+}
+
+.spike .rectangle-25 {
     width: 40px;
     height: 32px;
     top: 140px;
@@ -1509,9 +1564,9 @@
     border-radius: 7px 0px 0px 7px;
     position: absolute;
     background-color: #fcb434;
-  }
-  
-  .phone .text-wrapper-43 {
+}
+
+.spike .text-wrapper-43 {
     width: 27px;
     top: 153px;
     left: 215px;
@@ -1524,9 +1579,9 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-  }
-  
-  .phone .text-wrapper-44 {
+}
+
+.spike .text-wrapper-44 {
     width: 31px;
     top: 153px;
     left: 252px;
@@ -1539,9 +1594,9 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0;
-  }
-  
-  .phone .text-wrapper-45 {
+}
+
+.spike .text-wrapper-45 {
     position: absolute;
     width: 25px;
     top: 144px;
@@ -1554,9 +1609,9 @@
     letter-spacing: 0;
     line-height: 7.3px;
     white-space: nowrap;
-  }
-  
-  .phone .text-wrapper-46 {
+}
+
+.spike .text-wrapper-46 {
     position: absolute;
     width: 25px;
     top: 144px;
@@ -1569,17 +1624,56 @@
     letter-spacing: 0;
     line-height: 6.3px;
     white-space: nowrap;
-  }
-  
-  .phone .group-12 {
+}
+
+.spike .large-popout {
     position: absolute;
     width: 432px;
     height: 268px;
     top: 55px;
     left: 639px;
-  }
-  
-  .phone .rectangle-26 {
+}
+
+.spike .large-popout .popout-group {
+    position: relative;
+    width: 411px;
+    height: 270px;
+    top: -2px;
+}
+
+.spike .large-popout .popout-rectangle {
+    position: absolute;
+    width: 283px;
+    height: 167px;
+    top: 0;
+    left: 129px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    border-radius: 7px;
+    border-color: transparent;
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
+    
+    &:before {
+        content: '';
+        position: absolute;
+        top: 3px; right: 0; bottom: 0; left: 3px;
+        width: 277px;
+        height: 161px;
+        z-index: -1;
+        border-radius: inherit;
+        background-color: #1a1a1a;
+    }
+}
+
+.spike .large-extruding-vector{
+    position: absolute;
+    width: 404px;
+    height: 264px;
+    top: 6px;
+    left: 0;
+}
+
+.spike .rectangle-26 {
     position: absolute;
     width: 100px;
     height: 16px;
@@ -1588,17 +1682,37 @@
     background-color: #1a1a1a;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 0px 20px #ffffff73;
-  }
-  
-  .phone .group-13 {
+}
+
+.spike .baton {
+    position: absolute;
+    width: 48px;
+    height: 47px;
+    top: 39px;
+    left: 147px;
+}
+
+.spike .baton-ellipse {
+    position: absolute;
+    width: 13px;
+    height: 5px;
+    top: 49px;
+    left: 177px;
+    background-color: #adadad;
+    border-radius: 6.54px / 2.49px;
+    transform: rotate(46.59deg);
+    box-shadow: inset 0px 4px 4px #00000080;
+}
+
+.spike .title-1 {
     position: absolute;
     width: 465px;
     height: 310px;
     top: 45px;
     left: 0;
-  }
-  
-  .phone .WIN-MONEY-2 {
+}
+
+.spike .WIN-MONEY-2 {
     position: absolute;
     width: 702px;
     top: 294px;
@@ -1609,9 +1723,9 @@
     font-size: 110px;
     letter-spacing: 6.60px;
     line-height: 97.9px;
-  }
-  
-  .phone .text-wrapper-47 {
+}
+
+.spike .text-wrapper-47 {
     position: absolute;
     width: 222px;
     top: 528px;
@@ -1622,9 +1736,9 @@
     font-size: 15px;
     letter-spacing: 0;
     line-height: 19.5px;
-  }
-  
-  .phone .and-your-first-bet-s-2 {
+}
+
+.spike .and-your-first-bet-s-2 {
     position: absolute;
     width: 137px;
     top: 467px;
@@ -1636,56 +1750,50 @@
     text-align: center;
     letter-spacing: 0;
     line-height: 13.6px;
-  }
-  
-  .phone .group-14 {
-    position: absolute;
-    width: 463px;
-    height: 124px;
-    top: 371px;
-    left: 36px;
-  }
-  
-  .phone .store-download-5 {
+}
+
+.spike .store-download-5 {
     left: 964px;
     position: absolute;
     width: 202px;
     height: 122px;
     top: 521px;
-  }
-  
-  .phone .store-download-6 {
+}
+
+.spike .store-download-6 {
     left: 824px;
     position: absolute;
     width: 202px;
     height: 122px;
     top: 521px;
-  }
-  
-  @media (max-width: 1039px) {
-    .phone.half-size-wrapper {
-      display: none !important;
+}
+
+@media (max-width: 1039px) {
+    .spike.half-size-wrapper {
+        display: none !important;
     }
-    .phone.laptop-wrapper {
-      display: none !important;
+
+    .spike.laptop-wrapper {
+        display: none !important;
     }
-  }
-  
-  @media (min-width: 1040px) and (max-width: 1296px) {
-    .phone.phone-wrapper {
-      display: none !important;
+}
+
+@media (min-width: 1040px) and (max-width: 1096px) {
+    .spike.phone-wrapper {
+        display: none !important;
     }
-    .phone.laptop-wrapper {
-      display: none !important;
+
+    .spike.laptop-wrapper {
+        display: none !important;
     }
-  }
-  
-  @media (min-width: 1297px) {
-    .phone.phone-wrapper {
-      display: none !important;
+}
+
+@media (min-width: 1097px) {
+    .spike.phone-wrapper {
+        display: none !important;
     }
-    .phone.half-size-wrapper {
-      display: none !important;
+
+    .spike.half-size-wrapper {
+        display: none !important;
     }
-  }
-  
+}
