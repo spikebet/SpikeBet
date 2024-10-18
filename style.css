@@ -421,7 +421,7 @@
     line-height: 18.9px;
 }
 
-.input-button-container {
+.spike .input-button-container {
     position: absolute;
     width: 330px;
     height: 40px;
@@ -431,7 +431,7 @@
     margin: 0 auto;
 }
 
-input[type="email"] {
+.spike input[type="email"] {
     flex: 1;
     padding: 10px;
     border: 2px solid #e0a528;
@@ -442,7 +442,7 @@ input[type="email"] {
     font-size: 12px;
 }
 
-.submit-btn {
+.spike .submit-btn {
     background-color: #e0a528;
     color: white;
     border: 2px solid #e0a528;
@@ -456,7 +456,7 @@ input[type="email"] {
     transition: background-color 0.3s ease;
 }
 
-.submit-btn:hover {
+.spike .submit-btn:hover {
     background-color: #c28d23;
 }
 
@@ -710,6 +710,7 @@ input[type="email"] {
     height: 268px;
     top: 55px;
     left: 639px;
+    transition: all 0.3s ease;
 }
 
 .spike .large-popout .popout-group {
@@ -745,7 +746,7 @@ input[type="email"] {
     }
 }
 
-.spike .large-popout:hover .popout-rectangle{
+/* .spike .large-popout:hover .popout-rectangle{
     width: 288px;
     height: 172px;
     top: -2.5;
@@ -755,6 +756,15 @@ input[type="email"] {
         top: 3px; right: 0; bottom: 0; left: 3px;
         width: 282px;
         height: 166px;
+    }
+} */
+
+.spike .large-popout:hover {
+    top: 53px;
+    left: 649px;
+
+    .popout-rectangle {
+        box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
     }
 }
 
@@ -879,32 +889,190 @@ input[type="email"] {
     top: 521px;
 }
 
-@media (max-width: 1039px) {
-    .spike.phone-wrapper {
-        display: none !important;
-    }
-
-    .spike.half-size-wrapper {
-        display: none !important;
-    }
+.spike .phone-title {
+    position: absolute;
+    width: 702px;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    
+    font-family: "Kanit", Helvetica;
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 3px;
+    transition: all 0.5s ease;
 }
 
-@media (min-width: 1040px) and (max-width: 1096px) {
-    .spike.phone-wrapper {
+.spike .text-wrapper-48 {
+    color: white;
+}
+
+.spike .text-wrapper-49 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #fcb538;
+}
+
+@media (max-width: 1050px) {
+    .spike .elements {
+        position: absolute;
+        width: 95vw;
+    }
+
+    .spike .phone-title {
+        display: block !important;
+    }
+
+    .spike .title-1 {
+        display: none !important;
+    }
+    
+    .spike .WIN-MONEY {
         display: none !important;
     }
 
-    .spike.half-size-wrapper {
+    .spike .small-popout {
+        top: 780px;
+        left: calc(50% - 50px);
+        transform: translate(-50%);
+    }
+
+    .spike .large-popout {
+        top: 240px;
+        left: calc(50% + 90px);
+        transform: translate(-50%);
+    }
+    
+    .spike .input-button-container {
+        top: 130px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .spike .and-your-first-bet-s {
+        top: 175px;
+        left: calc(50% + 90px);
+        transform: translate(-50%);
+    }
+
+    .spike .tracklines {
+        width: 2539px;
+        height: 2543.28;
+        top: 510px;
+        left: -1045px;
+    }
+    
+    .spike .iphone-pro {
+        width: 324px;
+        height: 669px;
+        top: 280px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .spike .text-wrapper-47 {
+        top: 1100px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .spike .store-download-apple {
+        top: 1100px;
+        left: calc(50% + 70px);
+        transform: translate(-50%);
+    }
+    
+    .spike .store-download-google {
+        top: 1100px;
+        left: calc(50% - 70px);
+        transform: translate(-50%);
+    }
+    
+}
+
+@media (min-width: 1050px) and (max-width: 1316px) {
+    .spike .phone-title{
         display: none !important;
     }
+
+    .spike .title-1 {
+        width: 465px;
+        height: 310px;
+        top: 45px;
+        left: 0;
+    }
+    
+    .spike .WIN-MONEY {
+        top: 280px;
+        left: 100px;
+        font-size: 90px;
+        letter-spacing: 6.60px;
+        line-height: 97.9px;
+    }
+
+    .spike .text-wrapper-37 {
+        font-size: 90px;
+        text-align: right;
+        letter-spacing: 8.00px;
+        line-height: 105.0px;
+    }
+    
+    .spike .text-wrapper-38 {
+        top: 150px;
+        font-size: 90px;
+        text-align: right;
+        letter-spacing: 8.00px;
+        line-height: 105.0px;
+        white-space: nowrap;
+    }
+    
+    .spike .text-wrapper-39 {
+        top: 75px;
+        left: 99px;
+        font-size: 90px;
+        text-align: right;
+        letter-spacing: 8.00px;
+        line-height: 105.0px;
+        white-space: nowrap;
+    }
+
+    .spike .small-popout {
+        top: 492px;
+        left: 320px;
+    }
+
+    .spike .large-popout {
+        left: 590px;
+    }
+    
+    .spike .input-button-container {
+        top: 490px;
+    }
+
+    .spike .and-your-first-bet-s {
+        top: 540px;
+    }
+
+    .spike .text-wrapper-47 {
+        top: 450px;
+        left: 825px;
+    }
+    
+    .spike .store-download-apple {
+        left: 800px;
+        top: 451px;
+    }
+    
+    .spike .store-download-google {
+        left: 800px;
+        top: 511px;
+    }
+
 }
 
 @media (min-width: 1097px) {
-    .spike.phone-wrapper {
-        display: none !important;
-    }
-
-    .spike.half-size-wrapper {
+    .spike .phone-title{
         display: none !important;
     }
 }
