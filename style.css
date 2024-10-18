@@ -1453,6 +1453,7 @@ input[type="email"] {
     height: 191px;
     top: 432px;
     left: 249px;
+    transition: all 0.3s ease;
 }
 
 .spike .small-popout .popout-group {
@@ -1481,6 +1482,7 @@ input[type="email"] {
     border-color: transparent;
     transform: rotate(180deg);
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
+    transition: all 0.3s ease;
     
     &:before {
         content: '';
@@ -1491,6 +1493,21 @@ input[type="email"] {
         z-index: -1;
         border-radius: inherit;
         background-color: #1a1a1a;
+        transition: all 0.3s ease;
+    }
+}
+
+.spike .small-popout:hover .popout-rectangle{
+    background: linear-gradient(-25deg, rgba(218, 140, 0, 1), rgba(218, 140, 0, 0));
+    width: 315px;
+    height: 81px;
+    top: 114.5px;
+    left: -7.5px;
+
+    &:before {
+        top: 3px; right: 0; bottom: 0; left: 3px;
+        width: 309px;
+        height: 75px;
     }
 }
 
@@ -1636,6 +1653,7 @@ input[type="email"] {
     border-color: transparent;
     transform: rotate(180deg);
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
+    transition: all 0.3s ease;
     
     &:before {
         content: '';
@@ -1646,6 +1664,21 @@ input[type="email"] {
         z-index: -1;
         border-radius: inherit;
         background-color: #1a1a1a;
+        transition: all 0.3s ease;
+    }
+}
+
+.spike .large-popout:hover .popout-rectangle{
+    background: linear-gradient(-25deg, rgba(218, 140, 0, 1), rgba(218, 140, 0, 0));
+    width: 288px;
+    height: 172px;
+    top: -2.5;
+    left: 126.5px;
+
+    &:before {
+        top: 3px; right: 0; bottom: 0; left: 3px;
+        width: 282px;
+        height: 166px;
     }
 }
 
@@ -1694,6 +1727,11 @@ input[type="email"] {
     height: 310px;
     top: 45px;
     left: 0;
+    transition: all 0.5s ease;
+}
+
+.spike .title-1:hover {
+    left: -10px;
 }
 
 .spike .WIN-MONEY-2 {
@@ -1707,6 +1745,11 @@ input[type="email"] {
     font-size: 110px;
     letter-spacing: 6.60px;
     line-height: 97.9px;
+    transition: all 0.5s ease;
+}
+
+.spike .WIN-MONEY-2:hover {
+    left: 859px;
 }
 
 .spike .text-wrapper-47 {
