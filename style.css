@@ -144,7 +144,7 @@
     box-shadow: inset 0px 4px 4px #00000080;
 }
 
-.spike .world-champ-xm {
+.spike .world-champ {
     position: absolute;
     width: 175px;
     top: 48px;
@@ -282,7 +282,7 @@
     white-space: nowrap;
 }
 
-.spike .diamond-doha-m {
+.spike .diamond-doha {
     position: absolute;
     width: 89px;
     height: 8px;
@@ -408,7 +408,7 @@
     line-height: normal;
 }
 
-.spike .the-PREMIER-track-2 {
+.spike .the-PREMIER-track {
     position: absolute;
     width: 646px;
     top: 13px;
@@ -814,7 +814,7 @@ input[type="email"] {
     left: -10px;
 }
 
-.spike .WIN-MONEY-2 {
+.spike .WIN-MONEY {
     position: absolute;
     width: 702px;
     top: 294px;
@@ -828,7 +828,7 @@ input[type="email"] {
     transition: all 0.5s ease;
 }
 
-.spike .WIN-MONEY-2:hover {
+.spike .WIN-MONEY:hover {
     left: 859px;
 }
 
@@ -845,7 +845,7 @@ input[type="email"] {
     line-height: 19.5px;
 }
 
-.spike .and-your-first-bet-s-2 {
+.spike .and-your-first-bet-s {
     position: absolute;
     width: 137px;
     top: 467px;
@@ -859,7 +859,7 @@ input[type="email"] {
     line-height: 13.6px;
 }
 
-.spike .store-download-5 {
+.spike .store-download-apple {
     left: 964px;
     position: absolute;
     width: 202px;
@@ -867,7 +867,7 @@ input[type="email"] {
     top: 521px;
 }
 
-.spike .store-download-6 {
+.spike .store-download-google {
     left: 824px;
     position: absolute;
     width: 202px;
