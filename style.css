@@ -510,10 +510,8 @@ input[type="email"] {
     left: 50%;
     transform: translate(-50%, -50%);
     filter: 
-        drop-shadow(0px 0px 200px #ffd07e66)
-        drop-shadow(0px 0px 100px #ffd07e66)
-        drop-shadow(0px 0px 10px #ffd07e66)
-        drop-shadow(0px 0px 5px #ffd07e66)
+        drop-shadow(0px 0px 200px #ffd07e99)
+        drop-shadow(0px 0px 110px #ffd07e8e)
         drop-shadow(0px 0px 50.24px #FFF);
     background-image: url('./assets/iPhone-12-Pro.png');
     background-size: 100% 100%;
@@ -578,7 +576,6 @@ input[type="email"] {
 }
 
 .spike .small-popout:hover .popout-rectangle{
-    background: linear-gradient(-25deg, rgba(218, 140, 0, 1), rgba(218, 140, 0, 0));
     width: 315px;
     height: 81px;
     top: 114.5px;
@@ -749,7 +746,6 @@ input[type="email"] {
 }
 
 .spike .large-popout:hover .popout-rectangle{
-    background: linear-gradient(-25deg, rgba(218, 140, 0, 1), rgba(218, 140, 0, 0));
     width: 288px;
     height: 172px;
     top: -2.5;
