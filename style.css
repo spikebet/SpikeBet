@@ -810,10 +810,6 @@ input[type="email"] {
     transition: all 0.5s ease;
 }
 
-.spike .title-1:hover {
-    left: -10px;
-}
-
 .spike .WIN-MONEY {
     position: absolute;
     width: 702px;
@@ -828,8 +824,20 @@ input[type="email"] {
     transition: all 0.5s ease;
 }
 
-.spike .WIN-MONEY:hover {
+.title-1:hover {
+    left: -10px;
+}
+
+.WIN-MONEY:hover {
     left: 859px;
+}
+
+.title-1:hover ~ .WIN-MONEY {
+    left: 859px;
+}
+
+.WIN-MONEY:hover ~ .title-1 {
+    left: -10px;
 }
 
 .spike .text-wrapper-47 {
