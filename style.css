@@ -505,10 +505,10 @@
 
 .spike .tracklines {
     position: absolute;
-    width: 2539px;
-    height: 2543.28;
+    width: 1206px;
+    height: 1294px;
     top: 219px;
-    left: -827px;
+    left: -225px;
 }
 
 .spike .iphone-pro {
@@ -891,19 +891,23 @@
 }
 
 .spike .store-download-apple {
-    left: 964px;
+    left: 994px;
     position: absolute;
-    width: 202px;
-    height: 122px;
-    top: 521px;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    top: 561px;
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
 }
 
 .spike .store-download-google {
-    left: 824px;
+    left: 854px;
     position: absolute;
-    width: 202px;
-    height: 122px;
-    top: 521px;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    top: 561px;
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
 }
 
 .spike .phone-title {
@@ -1043,10 +1047,9 @@
     }
 
     .spike .tracklines {
-        width: 2699px;
-        height: 2543.28;
-        top: 690px;
-        left: -1105px;
+        width: 1400px;
+        top: 740px;
+        left: -560px;
     }
     
     .spike .iphone-pro {
@@ -1081,13 +1084,13 @@
     }
     
     .spike .store-download-apple {
-        top: 1300px;
+        top: 1340px;
         left: calc(50% + 70px);
         transform: translate(-50%);
     }
     
     .spike .store-download-google {
-        top: 1300px;
+        top: 1340px;
         left: calc(50% - 70px);
         transform: translate(-50%);
     }
@@ -1163,13 +1166,13 @@
     }
     
     .spike .store-download-apple {
-        left: 800px;
-        top: 451px;
+        left: 830px;
+        top: 491px;
     }
     
     .spike .store-download-google {
-        left: 800px;
-        top: 511px;
+        left: 830px;
+        top: 551px;
     }
 
 }
