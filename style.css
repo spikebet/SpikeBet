@@ -920,10 +920,10 @@
 
 .about img{
     position: absolute;
-    top: calc(50% - 30px);
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: calc(50% - 70px);
+    left: calc(50% - 20px);
     width: 40px;
+    animation: wiggle 1s ease infinite;
 }
 
 #preloader {
@@ -944,10 +944,10 @@
     top: 50%;
     left: 50%;
     width: 30px;
-    animation: hithere 1s ease infinite;
+    animation: wiggle 1s ease infinite;
 }
 
-@keyframes hithere {
+@keyframes wiggle {
     30% {}
     40%, 60% { transform: rotate(-20deg); }
     50% { transform: rotate(20deg); }
