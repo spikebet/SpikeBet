@@ -926,6 +926,35 @@
     width: 40px;
 }
 
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: none;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+#preloader img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    animation: hithere 1s ease infinite;
+}
+
+@keyframes hithere {
+    30% {}
+    40%, 60% { transform: rotate(-20deg); }
+    50% { transform: rotate(20deg); }
+    70% { transform: rotate(0deg); }
+    100% {}
+}
+
 @media (max-width: 1050px) {
     .spike .laptop {
         height: 1700px;
@@ -1058,6 +1087,10 @@
         top: 1340px;
         left: calc(50% - 70px);
         transform: translate(-50%);
+    }
+
+    #preloader img{
+        width: 80px;
     }
     
 }
