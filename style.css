@@ -530,7 +530,7 @@
         drop-shadow(0px 0px 200px #ffd07e99)
         drop-shadow(0px 0px 110px #ffd07e8e)
         drop-shadow(0px 0px 50.24px #FFF);
-    background-image: url('./assets/iPhone-12-Pro.svg');
+    background-image: url('./assets/iPhone-Pro.png');
     background-size: 100% 100%;
 }
 
@@ -589,19 +589,6 @@
         border-radius: inherit;
         background-color: #1a1a1a;
         transition: all 0.3s ease;
-    }
-}
-
-.spike .small-popout:hover .popout-rectangle{
-    width: 315px;
-    height: 81px;
-    top: 114.5px;
-    left: -7.5px;
-
-    &:before {
-        top: 3px; right: 0; bottom: 0; left: 3px;
-        width: 309px;
-        height: 75px;
     }
 }
 
@@ -760,28 +747,6 @@
         border-radius: inherit;
         background-color: #1a1a1a;
         transition: all 0.3s ease;
-    }
-}
-
-/* .spike .large-popout:hover .popout-rectangle{
-    width: 288px;
-    height: 172px;
-    top: -2.5;
-    left: 126.5px;
-
-    &:before {
-        top: 3px; right: 0; bottom: 0; left: 3px;
-        width: 282px;
-        height: 166px;
-    }
-} */
-
-.spike .large-popout:hover {
-    top: 53px;
-    left: 649px;
-
-    .popout-rectangle {
-        box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
     }
 }
 
@@ -1175,10 +1140,80 @@
         top: 551px;
     }
 
+    .spike .small-popout:hover .popout-rectangle{
+        width: 315px;
+        height: 81px;
+        top: 114.5px;
+        left: -7.5px;
+    
+        &:before {
+            top: 3px; right: 0; bottom: 0; left: 3px;
+            width: 309px;
+            height: 75px;
+        }
+    }
+
+    /* .spike .large-popout:hover .popout-rectangle{
+        width: 288px;
+        height: 172px;
+        top: -2.5;
+        left: 126.5px;
+
+        &:before {
+            top: 3px; right: 0; bottom: 0; left: 3px;
+            width: 282px;
+            height: 166px;
+        }
+    } */
+
+    .spike .large-popout:hover {
+        top: 53px;
+        left: 649px;
+
+        .popout-rectangle {
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+        }
+    }
+
 }
 
 @media (min-width: 1097px) {
     .spike .phone-title{
         display: none !important;
+    }
+
+    .spike .small-popout:hover .popout-rectangle{
+        width: 315px;
+        height: 81px;
+        top: 114.5px;
+        left: -7.5px;
+    
+        &:before {
+            top: 3px; right: 0; bottom: 0; left: 3px;
+            width: 309px;
+            height: 75px;
+        }
+    }
+
+    /* .spike .large-popout:hover .popout-rectangle{
+        width: 288px;
+        height: 172px;
+        top: -2.5;
+        left: 126.5px;
+
+        &:before {
+            top: 3px; right: 0; bottom: 0; left: 3px;
+            width: 282px;
+            height: 166px;
+        }
+    } */
+
+    .spike .large-popout:hover {
+        top: 53px;
+        left: 649px;
+
+        .popout-rectangle {
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+        }
     }
 }
