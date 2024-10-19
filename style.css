@@ -932,8 +932,29 @@
 }
 
 .about {
+    position: relative;
     background-color: white;
-    height: 1000px;
+    width: 100%;
+    height: 500px;
+}
+
+.about .coming-soon {
+    position: absolute;
+    top: calc(50% + 20px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: "Open Sans", Helvetica;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.about img{
+    position: absolute;
+    top: calc(50% - 30px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
 }
 
 @media (max-width: 1050px) {
