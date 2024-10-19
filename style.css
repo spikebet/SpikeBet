@@ -621,7 +621,7 @@
     font-family: "Open Sans", Helvetica;
     font-weight: 600;
     color: transparent;
-    font-size: 12px;
+    font-size: 10.5px;
     letter-spacing: 0;
     line-height: 12.6px;
     white-space: nowrap;
@@ -863,6 +863,7 @@
     border-radius: 6px;
     top: 561px;
     box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+    transition: all 0.3s ease;
 }
 
 .spike .store-download-google {
@@ -873,6 +874,15 @@
     border-radius: 6px;
     top: 561px;
     box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+    transition: all 0.3s ease;
+}
+
+.spike .store-download-apple:hover {
+    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.70);
+}
+
+.spike .store-download-google:hover {
+    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.70);
 }
 
 .spike .phone-title {
@@ -1173,7 +1183,7 @@
         top: 551px;
     }
 
-    .spike .small-popout:hover .popout-rectangle{
+    /* .spike .small-popout:hover .popout-rectangle{
         width: 315px;
         height: 81px;
         top: 114.5px;
@@ -1184,7 +1194,7 @@
             width: 309px;
             height: 75px;
         }
-    }
+    } */
 
     /* .spike .large-popout:hover .popout-rectangle{
         width: 288px;
@@ -1198,6 +1208,15 @@
             height: 166px;
         }
     } */
+
+    .spike .small-popout:hover {
+        top: 442px;
+        left: 239px;
+
+        .popout-rectangle {
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+        }
+    }
 
     .spike .large-popout:hover {
         top: 53px;
@@ -1215,7 +1234,7 @@
         display: none !important;
     }
 
-    .spike .small-popout:hover .popout-rectangle{
+    /* .spike .small-popout:hover .popout-rectangle{
         width: 315px;
         height: 81px;
         top: 114.5px;
@@ -1226,7 +1245,7 @@
             width: 309px;
             height: 75px;
         }
-    }
+    } */
 
     /* .spike .large-popout:hover .popout-rectangle{
         width: 288px;
@@ -1240,6 +1259,15 @@
             height: 166px;
         }
     } */
+
+    .spike .small-popout:hover {
+        top: 442px;
+        left: 239px;
+
+        .popout-rectangle {
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+        }
+    }
 
     .spike .large-popout:hover {
         top: 53px;

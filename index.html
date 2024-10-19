@@ -3,9 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="./assets/appIcon.png">
+    <link rel="icon" href="./assets/appIcon.ico" type="image/x-icon">
     <title>Spike</title>
   </head>
   <body>
@@ -23,10 +22,12 @@
               <img class=".extruding-vector" src="./assets/small-extruding-vector.svg" />
               <div class="popout-rectangle"></div>
               <img class="US-flag" src="./assets/US-flag.png"/>
-              <div class="text-wrapper-42">USA Wins Gold</div>
-              <p class="olympic-final">
-                <span class="span">Olympic Final </span> <span class="text-wrapper-2">4x100m</span>
-              </p>
+              <a href="https://www.youtube.com/watch?v=Ytg5MUQECm4" target="_blank">
+                <div class="text-wrapper-42">USA Wins Gold</div>
+                <p class="olympic-final">
+                  <span class="span">Olympic Final </span> <span class="text-wrapper-2">W 4x400m</span>
+                </p>
+              </a>
               <div class="rectangle-24"></div>
               <div class="rectangle-25"></div>
               <div class="text-wrapper-43">-110</div>
@@ -48,10 +49,12 @@
               <div class="text-wrapper-29">-105</div>
               <img class="baton" src="./assets/baton.svg" />
               <div class="baton-ellipse"></div>
-              <p class="world-champ">
-                <span class="span">World Champ. </span> <span class="text-wrapper-2">4x400m</span>
-              </p>
-              <div class="text-wrapper-30">A Baton is Dropped</div>
+              <a href="https://www.youtube.com/watch?v=on_3pJyXpVE" target="_blank">
+                <p class="world-champ">
+                  <span class="span">World Champ. </span> <span class="text-wrapper-2">4x400m</span>
+                </p>
+                <div class="text-wrapper-30">A Baton is Dropped</div>
+              </a>
               <div class="text-wrapper-31">N. Lyles</div>
               <div class="text-wrapper-32">RELAY</div>
               <div class="rectangle-21"></div>
@@ -84,10 +87,11 @@
             <span class="text-wrapper-2">&nbsp;</span>
           </p>
 
-          <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfp_4zq6HWSrrjJVNQWdi3gwaKQ_EuvUkyzVWZblytbPvGUcw/formResponse" method="POST">              
+          <!-- <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfp_4zq6HWSrrjJVNQWdi3gwaKQ_EuvUkyzVWZblytbPvGUcw/formResponse" method="POST">               -->
+          <form id="waitingList">  
             <div class="input-button-container">
-              <input type="email" name="entry.547413895" autocomplete="off" required placeholder="Email Address...">
-              <button class="submit-btn">JOIN THE WAIT</button>
+              <input id="waitingListInput" type="email" name="entry.547413895" autocomplete="off" required placeholder="Email Address...">
+              <button id="submitWaitingList" class="submit-btn">JOIN THE WAIT</button>
             </div>
           </form>
 
@@ -130,5 +134,32 @@
         }, 500);
       }, 1500);
     }
+    
+  </script>
+
+  <script>
+    waitingListInput = document.getElementById('waitingListInput')
+    submitWaitingList = document.getElementById('submitWaitingList')
+
+    document.getElementById('waitingList').addEventListener('submit', function(event) {
+        event.preventDefault();
+    
+        var formData = new FormData(this);
+        
+        fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfp_4zq6HWSrrjJVNQWdi3gwaKQ_EuvUkyzVWZblytbPvGUcw/formResponse', {
+            method: 'POST',
+            body: formData,
+            mode: 'no-cors'
+        })
+        .then(response => {
+            console.log('Success:', response);
+            waitingListInput.value = '';
+            waitingListInput.placeholder = 'Thanks!';
+            submitWaitingList.textContent = 'JOINED!';
+        })
+        .catch(error => {
+            console.error('Error:', error.message);
+        });
+    });
   </script>
 </html>

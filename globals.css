@@ -12,7 +12,8 @@
 
 html,
 body {
-    background-color: black;
+    scroll-behavior: smooth;
+    background: black;
     margin: 0px;
     height: 100%;
 }
