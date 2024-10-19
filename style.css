@@ -530,7 +530,7 @@
         drop-shadow(0px 0px 200px #ffd07e99)
         drop-shadow(0px 0px 110px #ffd07e8e)
         drop-shadow(0px 0px 50.24px #FFF);
-    background-image: url('./assets/iPhone-12-Pro.png');
+    background-image: url('./assets/iPhone-12-Pro.svg');
     background-size: 100% 100%;
 }
 
@@ -1060,6 +1060,10 @@
     .spike .screen-iphone-pro-wrapper {
         width: 346px;
         height: 821px;
+
+        filter: 
+            drop-shadow(0px 0px 200px #ffd07ee9)
+            drop-shadow(0px 0px 50.24px #FFF);
     }
     
     .spike .screen-iphone-pro {
