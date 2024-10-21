@@ -1,4 +1,3 @@
-
 .spike .span {
     color: #fcb434;
 }
@@ -30,7 +29,7 @@
     top: -2px;
 }
 
-.spike .large-extruding-vector{
+.spike .large-extruding-vector {
     position: absolute;
     width: 404px;
     height: 264px;
@@ -526,10 +525,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    filter: 
-        drop-shadow(0px 0px 200px #ffd07e99)
-        drop-shadow(0px 0px 110px #ffd07e8e)
-        drop-shadow(0px 0px 50.24px #FFF);
+    filter:
+        drop-shadow(0px 0px 200px #ffd07e99) drop-shadow(0px 0px 110px #ffd07e8e) drop-shadow(0px 0px 50.24px #FFF);
     background-image: url('./assets/iPhone-Pro.png');
     background-size: 100% 100%;
 }
@@ -578,11 +575,14 @@
     transform: rotate(180deg);
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
     transition: all 0.3s ease;
-    
+
     &:before {
         content: '';
         position: absolute;
-        top: 3px; right: 0; bottom: 0; left: 3px;
+        top: 3px;
+        right: 0;
+        bottom: 0;
+        left: 3px;
         width: 304px;
         height: 70px;
         z-index: -1;
@@ -736,11 +736,14 @@
     transform: rotate(180deg);
     box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
     transition: all 0.3s ease;
-    
+
     &:before {
         content: '';
         position: absolute;
-        top: 3px; right: 0; bottom: 0; left: 3px;
+        top: 3px;
+        right: 0;
+        bottom: 0;
+        left: 3px;
         width: 277px;
         height: 161px;
         z-index: -1;
@@ -750,7 +753,7 @@
     }
 }
 
-.spike .large-extruding-vector{
+.spike .large-extruding-vector {
     position: absolute;
     width: 404px;
     height: 264px;
@@ -820,11 +823,11 @@
     left: 859px;
 }
 
-.title-1:hover ~ .WIN-MONEY {
+.title-1:hover~.WIN-MONEY {
     left: 859px;
 }
 
-.WIN-MONEY:hover ~ .title-1 {
+.WIN-MONEY:hover~.title-1 {
     left: -10px;
 }
 
@@ -892,7 +895,7 @@
     left: 50%;
     transform: translate(-50%);
     text-align: center;
-    
+
     font-family: "Kanit", Helvetica;
     font-weight: 500;
     font-size: 70px;
@@ -928,7 +931,7 @@
     font-size: 25px;
 }
 
-.about img{
+.about img {
     position: absolute;
     top: calc(50% - 70px);
     left: calc(50% - 20px);
@@ -949,7 +952,7 @@
     transition: opacity 1s ease-in-out;
 }
 
-#preloader img{
+#preloader img {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -959,11 +962,88 @@
 
 @keyframes wiggle {
     30% {}
-    40%, 60% { transform: rotate(-20deg); }
-    50% { transform: rotate(20deg); }
-    70% { transform: rotate(0deg); }
+
+    40%,
+    60% {
+        transform: rotate(-20deg);
+    }
+
+    50% {
+        transform: rotate(20deg);
+    }
+
+    70% {
+        transform: rotate(0deg);
+    }
+
     100% {}
 }
+
+.contact {
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    text-align: center;
+    padding: 50px;
+}
+
+.contact .contact-form-wrapper {
+    margin: auto;
+    width: 50vw;
+}
+
+.contact .contact-form-wrapper .title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.contact .contact-form-wrapper h1 {
+    font-size: 18px;
+    font-family: "Open Sans", Helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact .contact-form-wrapper p {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.contact .contact-form input {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    color: #999;
+}
+
+.contact .contact-form textarea {
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-size: 12px;
+    color: #999;
+}
+
+.contact .contact-form .submit-button {
+    background: #FCB434;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 7px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+
+
 
 @media (max-width: 1050px) {
     .spike .laptop {
@@ -983,7 +1063,7 @@
     .spike .title-1 {
         display: none !important;
     }
-    
+
     .spike .WIN-MONEY {
         display: none !important;
     }
@@ -999,7 +1079,7 @@
         left: calc(50% + 120px);
         transform: translate(-50%);
     }
-    
+
     .spike .input-button-container {
         width: 460px;
         height: 50px;
@@ -1011,7 +1091,7 @@
     .spike input[type="email"] {
         font-size: 20px;
     }
-    
+
     .spike .submit-btn {
         font-size: 20px;
     }
@@ -1055,7 +1135,7 @@
         top: 740px;
         left: -560px;
     }
-    
+
     .spike .iphone-pro {
         width: 346px;
         height: 821px;
@@ -1068,11 +1148,10 @@
         width: 346px;
         height: 821px;
 
-        filter: 
-            drop-shadow(0px 0px 200px #ffd07ee9)
-            drop-shadow(0px 0px 50.24px #FFF);
+        filter:
+            drop-shadow(0px 0px 200px #ffd07ee9) drop-shadow(0px 0px 50.24px #FFF);
     }
-    
+
     .spike .screen-iphone-pro {
         position: absolute;
         width: 300px;
@@ -1086,27 +1165,31 @@
         left: 50%;
         transform: translate(-50%);
     }
-    
+
     .spike .store-download-apple {
         top: 1340px;
         left: calc(50% + 70px);
         transform: translate(-50%);
     }
-    
+
     .spike .store-download-google {
         top: 1340px;
         left: calc(50% - 70px);
         transform: translate(-50%);
     }
 
-    #preloader img{
+    #preloader img {
         width: 80px;
     }
-    
+
+    .contact .contact-form-wrapper {
+        /* width: 50vw; */
+    }    
+
 }
 
 @media (min-width: 1050px) and (max-width: 1316px) {
-    .spike .phone-title{
+    .spike .phone-title {
         display: none !important;
     }
 
@@ -1116,7 +1199,7 @@
         top: 45px;
         left: 0;
     }
-    
+
     .spike .WIN-MONEY {
         top: 280px;
         left: 100px;
@@ -1131,7 +1214,7 @@
         letter-spacing: 8.00px;
         line-height: 105.0px;
     }
-    
+
     .spike .text-wrapper-38 {
         top: 150px;
         font-size: 90px;
@@ -1140,7 +1223,7 @@
         line-height: 105.0px;
         white-space: nowrap;
     }
-    
+
     .spike .text-wrapper-39 {
         top: 75px;
         left: 99px;
@@ -1159,7 +1242,7 @@
     .spike .large-popout {
         left: 590px;
     }
-    
+
     .spike .input-button-container {
         top: 490px;
     }
@@ -1172,12 +1255,12 @@
         top: 450px;
         left: 825px;
     }
-    
+
     .spike .store-download-apple {
         left: 830px;
         top: 491px;
     }
-    
+
     .spike .store-download-google {
         left: 830px;
         top: 551px;
@@ -1230,7 +1313,7 @@
 }
 
 @media (min-width: 1097px) {
-    .spike .phone-title{
+    .spike .phone-title {
         display: none !important;
     }
 

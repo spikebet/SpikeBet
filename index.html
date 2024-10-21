@@ -99,7 +99,9 @@
           <img class="store-download-apple" src="./assets/applestore.png" />
           <img class="store-download-google" src="./assets/googlestore.png" />
         </div>
-        <div class="contact-corner"><a href="mailto:contact@spikebetting.com">Contact</a></div>
+
+        <!-- mailto:contact@spikebetting.com -->
+        <div class="contact-corner"><a href="#contact">Contact</a></div>
         <div class="about-corner"><a href="#about">About</a></div>
         <img class="spikeLogo" src="./assets/spikeLogo.png" />
         <div class="topbar">
@@ -120,11 +122,45 @@
       <div class="coming-soon">Coming Soon</div>
     </div>
 
+    <div class="contact" id="contact">
+      <div class="contact-form-wrapper">
+        <div class="title">
+          <h1>Contact Us</h1>
+          <p>
+            You can also direct email us at contact@spikebetting.com. <br> Reach out with questions or if you want to become involved.
+          </p>
+        </div>
+        
+        <form id="contact-form" class="contact-form" method="post" role="form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required >
+          </div>
+      
+          <div class="form-group">
+            <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
+          </div>
+      
+          <div class="form-group">
+            <textarea rows="6" placeholder="Message" class="form-control" name="message"id="message" required></textarea>    
+          </div>
+    
+          <div id="submit" class="">
+            <input type="submit" id="contact-submit" class="btn btn-default submit-button" value="Send Message">
+          </div>
+        </form>
+        
+      </div>
+    </div>
+
     <div id="preloader">
       <img src="./assets/spikeLogo.png">
     </div>
   </body>
 
+  <!-- Preloader -->
   <script>
     window.onload = function(){
       setTimeout(function() {
@@ -137,6 +173,7 @@
     
   </script>
 
+  <!-- Waiting List Form -->
   <script>
     waitingListInput = document.getElementById('waitingListInput')
     submitWaitingList = document.getElementById('submitWaitingList')
