@@ -126,8 +126,11 @@
       <div class="contact-form-wrapper">
         <div class="title">
           <h1>Contact Us</h1>
-          <p>
+          <!-- <p>
             You can also direct email us at contact@spikebetting.com. <br> Reach out with questions or if you want to become involved.
+          </p> -->
+          <p>
+            This contact page is under construction. <br> Please direct all inquiries to contact@spikebetting.com
           </p>
         </div>
         
@@ -144,11 +147,11 @@
           </div>
       
           <div class="form-group">
-            <textarea rows="6" placeholder="Message" class="form-control" name="message"id="message" required></textarea>    
+            <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>    
           </div>
     
           <div id="submit" class="">
-            <input type="submit" id="contact-submit" class="btn btn-default submit-button" value="Send Message">
+            <input type="submit" id="contact-submit" class="btn btn-default submit-button" value="Under Construction">
           </div>
         </form>
         
@@ -199,4 +202,63 @@
         });
     });
   </script>
+
+  <!-- Contact form -->
+  <!-- <script>
+    (function($) {
+      $(".contact-form").validate({
+          rules: {
+              name: {
+                  required: true,
+                  minlength: 2
+              },
+              email: {
+                  required: true,
+                  email: true
+              },
+              subject: {
+                  required: true,
+                  minlength: 2
+              },
+              message: {
+                  required: true,
+                  minlength: 2
+              }
+          },
+          messages: {
+              name: {
+                  required: "come on, you have a name don't you?",
+                  minlength: "your name must consist of at least 2 characters"
+              },
+              email: {
+                  required: "no email, no support"
+              },
+              subject: {
+                  required: "you have a reason to contact, write it here",
+                  minlength: "thats all? really?"
+              },
+              message: {
+                  required: "um...yea, you have to write something to send this form.",
+                  minlength: "thats all? really?"
+              }
+          },
+          submitHandler: function(form) {
+              $(form).ajaxSubmit({
+                  type:"POST",
+                  data: $(form).serialize(),
+                  url:"contact@spikebetting.com",
+                  success: function() {
+                      $(".contact-form").resetForm();
+                      $(".success").slideDown("slow");
+                  },
+                  error: function() {
+                      $(".error").slideDown("slow");
+                  }
+              });
+          }
+      });    
+    })(jQuery);
+  </script> -->
+
+
 </html>
