@@ -945,7 +945,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50vw;
+    width: 40vw;
     /* backdrop-filter: blur(5px); */
 }
 
@@ -959,6 +959,7 @@
 .about p {
     font-size: 16px;
     font-family: "Open Sans", Helvetica;
+    line-height: 24px;
 }
 
 .about .coming-soon {
@@ -1252,11 +1253,13 @@
     }
 
     .about h3 {
+        font-weight: 600;
         font-size: 50px;
     }
     
     .about p {
         font-size: 25px;
+        line-height: 30px;
     }
 
     .contact {
@@ -1265,16 +1268,16 @@
     }
 
     .contact .contact-form-wrapper {
-        width: 85vw;
+        width: 80vw;
     }
 
     .contact .contact-form-wrapper h1 {
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .contact .contact-form-wrapper p {
         padding: 20px;
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .contact .contact-form input {
