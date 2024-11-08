@@ -313,8 +313,8 @@
     color: #ffffff;
     font-size: 100px;
     text-align: right;
-    letter-spacing: 8.00px;
-    line-height: 105.0px;
+    letter-spacing: 8px;
+    line-height: 105px;
 }
 
 .spike .text-wrapper-38 {
@@ -327,8 +327,8 @@
     color: #ffffff;
     font-size: 100px;
     text-align: right;
-    letter-spacing: 8.00px;
-    line-height: 105.0px;
+    letter-spacing: 8px;
+    line-height: 105px;
     white-space: nowrap;
 }
 
@@ -342,8 +342,8 @@
     color: #ffffff;
     font-size: 100px;
     text-align: right;
-    letter-spacing: 8.00px;
-    line-height: 105.0px;
+    letter-spacing: 8px;
+    line-height: 105px;
     white-space: nowrap;
 }
 
@@ -491,6 +491,8 @@
     width: 100%;
     height: 1367px;
     position: relative;
+    overflow-y: visible;
+    scroll-behavior: smooth;
 }
 
 .spike .elements {
@@ -500,14 +502,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: visible;
 }
 
 .spike .tracklines {
     position: absolute;
-    width: 1206px;
-    height: 1294px;
+    width: 1938px;
+    height: 2495px;
     top: 219px;
     left: -225px;
+    overflow: visible;
 }
 
 .spike .iphone-pro {
@@ -525,9 +529,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    filter:
-        drop-shadow(0px 0px 200px #ffd07e99) drop-shadow(0px 0px 110px #ffd07e8e) drop-shadow(0px 0px 50.24px #FFF);
-    background-image: url('./assets/iPhone-Pro.png');
+    filter: drop-shadow(0px 0px 200px #ffd07e99) drop-shadow(0px 0px 110px #ffd07e8e) drop-shadow(0px 0px 50.24px #fff);
+    background-image: url("./assets/iPhone-Pro.png");
     background-size: 100% 100%;
 }
 
@@ -569,15 +572,17 @@
     height: 76px;
     top: 117px;
     left: -5px;
-    background: linear-gradient(-25deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    background: linear-gradient(-25deg,
+            rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, 0));
     border-radius: 7px;
     border-color: transparent;
     transform: rotate(180deg);
-    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
 
     &:before {
-        content: '';
+        content: "";
         position: absolute;
         top: 3px;
         right: 0;
@@ -730,15 +735,17 @@
     height: 167px;
     top: 0;
     left: 129px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, 0));
     border-radius: 7px;
     border-color: transparent;
     transform: rotate(180deg);
-    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
 
     &:before {
-        content: '';
+        content: "";
         position: absolute;
         top: 3px;
         right: 0;
@@ -810,26 +817,26 @@
     font-weight: 700;
     color: #fcb538;
     font-size: 110px;
-    letter-spacing: 6.60px;
+    letter-spacing: 6.6px;
     line-height: 97.9px;
     transition: all 0.5s ease;
 }
 
-.title-1:hover {
-    left: -10px;
+/* .title-1:hover {
+  left: -10px;
 }
 
 .WIN-MONEY:hover {
-    left: 859px;
+  left: 859px;
 }
 
-.title-1:hover~.WIN-MONEY {
-    left: 859px;
+.title-1:hover ~ .WIN-MONEY {
+  left: 859px;
 }
 
-.WIN-MONEY:hover~.title-1 {
-    left: -10px;
-}
+.WIN-MONEY:hover ~ .title-1 {
+  left: -10px;
+} */
 
 .spike .text-wrapper-47 {
     position: absolute;
@@ -865,7 +872,7 @@
     height: 40px;
     border-radius: 6px;
     top: 561px;
-    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
 }
 
@@ -876,16 +883,16 @@
     height: 40px;
     border-radius: 6px;
     top: 561px;
-    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
     transition: all 0.3s ease;
 }
 
 .spike .store-download-apple:hover {
-    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.70);
+    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.7);
 }
 
 .spike .store-download-google:hover {
-    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.70);
+    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.7);
 }
 
 .spike .phone-title {
@@ -914,10 +921,31 @@
 }
 
 .about {
-    position: relative;
-    background-color: white;
+    position: absolute;
+    top: 1000px;
+    background-color: transparent;
     width: 100%;
     height: 500px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.about-text {
+    margin: auto;
+    width: 50vw;
+    /* backdrop-filter: blur(5px); */
+}
+
+.about h3 {
+    font-family: "Kanit", Helvetica;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+}
+
+.about p {
+    font-size: 16px;
 }
 
 .about .coming-soon {
@@ -931,12 +959,23 @@
     font-size: 25px;
 }
 
-.about img {
+.about #coming-soon-img {
     position: absolute;
     top: calc(50% - 70px);
     left: calc(50% - 20px);
     width: 40px;
     animation: wiggle 1s ease infinite;
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 100%;
+    }
 }
 
 #preloader {
@@ -960,6 +999,13 @@
     animation: wiggle 1s ease infinite;
 }
 
+#copyright {
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+    font-size: 14px;
+}
+
 @keyframes wiggle {
     30% {}
 
@@ -980,8 +1026,11 @@
 }
 
 .contact {
-    position: relative;
-    background-color: black;
+    position: absolute;
+    top: 1500px;
+    left: 50%;
+    transform: translate(-50%);
+    background: none;
     width: 100vw;
     text-align: center;
     padding: 50px;
@@ -1033,7 +1082,7 @@
 }
 
 .contact .contact-form .submit-button {
-    background: #FCB434;
+    background: #fcb434;
     color: #fff;
     font-size: 14px;
     border-radius: 7px;
@@ -1043,13 +1092,10 @@
     letter-spacing: 1px;
 }
 
-
-
-
-
 @media (max-width: 1050px) {
     .spike .laptop {
-        height: 1700px;
+        height: 100vh;
+        overflow-y: scroll;
     }
 
     .spike .elements {
@@ -1133,7 +1179,7 @@
     }
 
     .spike .tracklines {
-        width: 1400px;
+        width: 2255px;
         top: 740px;
         left: -560px;
     }
@@ -1150,8 +1196,7 @@
         width: 346px;
         height: 821px;
 
-        filter:
-            drop-shadow(0px 0px 200px #ffd07ee9) drop-shadow(0px 0px 50.24px #FFF);
+        filter: drop-shadow(0px 0px 200px #ffd07ee9) drop-shadow(0px 0px 50.24px #fff);
     }
 
     .spike .screen-iphone-pro {
@@ -1183,33 +1228,58 @@
     #preloader img {
         width: 80px;
     }
+
+    .about {
+        position: absolute;
+        top: 1800px;
+    }
+
+    .about-text {
+        width: 60vw;
+    }
+
+    .about h3 {
+        font-size: 50px;
+    }
     
+    .about p {
+        font-size: 25px;
+    }
+
+    .contact {
+        position: absolute;
+        top: 2700px;
+    }
+
     .contact .contact-form-wrapper {
         width: 85vw;
     }
-    
+
     .contact .contact-form-wrapper h1 {
         font-size: 35px;
     }
-    
+
     .contact .contact-form-wrapper p {
         padding: 20px;
         font-size: 22px;
     }
-    
+
     .contact .contact-form input {
         font-size: 20px;
     }
-    
+
     .contact .contact-form textarea {
         font-size: 20px;
     }
-    
+
     .contact .contact-form .submit-button {
         font-size: 25px;
         padding: 5px;
-    } 
+    }
 
+    #copyright {
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 1050px) and (max-width: 1316px) {
@@ -1228,23 +1298,23 @@
         top: 280px;
         left: 100px;
         font-size: 90px;
-        letter-spacing: 6.60px;
+        letter-spacing: 6.6px;
         line-height: 97.9px;
     }
 
     .spike .text-wrapper-37 {
         font-size: 90px;
         text-align: right;
-        letter-spacing: 8.00px;
-        line-height: 105.0px;
+        letter-spacing: 8px;
+        line-height: 105px;
     }
 
     .spike .text-wrapper-38 {
         top: 150px;
         font-size: 90px;
         text-align: right;
-        letter-spacing: 8.00px;
-        line-height: 105.0px;
+        letter-spacing: 8px;
+        line-height: 105px;
         white-space: nowrap;
     }
 
@@ -1253,8 +1323,8 @@
         left: 99px;
         font-size: 90px;
         text-align: right;
-        letter-spacing: 8.00px;
-        line-height: 105.0px;
+        letter-spacing: 8px;
+        line-height: 105px;
         white-space: nowrap;
     }
 
@@ -1321,7 +1391,7 @@
         left: 239px;
 
         .popout-rectangle {
-            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
         }
     }
 
@@ -1330,10 +1400,9 @@
         left: 649px;
 
         .popout-rectangle {
-            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
         }
     }
-
 }
 
 @media (min-width: 1097px) {
@@ -1372,7 +1441,7 @@
         left: 239px;
 
         .popout-rectangle {
-            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
         }
     }
 
@@ -1381,7 +1450,7 @@
         left: 649px;
 
         .popout-rectangle {
-            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.50);
+            box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
         }
     }
 }

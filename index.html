@@ -11,7 +11,7 @@
     <div class="spike laptop-wrapper">
       <div class="laptop">
         <div class="elements">
-          <img class="tracklines" src="./assets/tracklines.png" />
+          <img class="tracklines" src="./assets/tracklines-extended.png" />
           <div class="iphone-pro">
             <div class="screen-iphone-pro-wrapper">
               <img class="screen-iphone-pro" src="./assets/Screen-iPhone-Pro.png" />
@@ -98,6 +98,74 @@
           
           <img class="store-download-apple" src="./assets/applestore.png" />
           <img class="store-download-google" src="./assets/googlestore.png" />
+        
+
+
+
+          <div class="about" id="about">
+            <!-- <img id="coming-soon-img" src="./assets/spikeLogo.png">
+            <div class="coming-soon">Coming Soon</div> -->
+      
+            <div class="about-text">
+              <h3>By athletes & fans, for athletes & fans</h3>
+              <br>
+              <p>We love Track & Field. But we’ve seen the sport struggle to gain popularity. That’s why we created Spike. Download the app, connect with other fans, and win – all while helping the sport get the attention it deserves. </p>
+              <br>
+              <h3>Excitement, on and off the track</h3>
+              <br>
+              <p>Whether you’re cheering for your favorite athlete or betting against their rival, Spike lets you join in on the action. Bet on any athlete across any event, anywhere – it’s time to make Track & Field as thrilling off the track as it is on it. </p>
+              <br>
+              <h3>Join the wait today</h3>
+            </div>
+      
+          </div>
+      
+          <div class="contact" id="contact">
+            <div class="contact-form-wrapper">
+              <div class="title">
+                <h1>Contact Us</h1>
+                <p>
+                  You can also direct email us at contact@spikebetting.com. <br> Reach out with questions or if you want to become involved.
+                </p>
+                <!-- <p>
+                  This contact page is under construction. <br> Please direct all inquiries to contact@spikebetting.com
+                </p> -->
+              </div>
+
+              <!-- <form id="waitingList">  
+                <div class="input-button-container">
+                  <input id="waitingListInput" type="email" name="entry.547413895" autocomplete="off" required placeholder="Email Address...">
+                  <button id="submitWaitingList" class="submit-btn">JOIN THE WAIT</button>
+                </div>
+              </form> -->
+              
+              <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                  <input type="text" placeholder="Your Name" class="form-control" name="entry.489586537" id="personName" autocomplete="off" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" placeholder="Your Email" class="form-control" name="entry.79870145" id="email" autocomplete="off" required >
+                </div>
+            
+                <div class="form-group">
+                  <input type="text" placeholder="Subject" class="form-control" name="entry.77917922" id="subject" autocomplete="off" required>
+                </div>
+            
+                <div class="form-group">
+                  <textarea rows="6" placeholder="Message" class="form-control" name="entry.520970012" id="message" autocomplete="off" required></textarea>    
+                </div>
+          
+                <div id="submit" class="">
+                  <input type="submit" id="contact-submit" class="btn btn-default submit-button" value="Send Message">
+                </div>
+              </form>
+              
+            </div>
+
+            <p id="copyright">© Copyright 2024</p>
+
+          </div>
+        
         </div>
 
         <!-- mailto:contact@spikebetting.com -->
@@ -117,46 +185,6 @@
       </div>
     </div>
 
-    <div class="about" id="about">
-      <img src="./assets/spikeLogo.png">
-      <div class="coming-soon">Coming Soon</div>
-    </div>
-
-    <div class="contact" id="contact">
-      <div class="contact-form-wrapper">
-        <div class="title">
-          <h1>Contact Us</h1>
-          <!-- <p>
-            You can also direct email us at contact@spikebetting.com. <br> Reach out with questions or if you want to become involved.
-          </p> -->
-          <p>
-            This contact page is under construction. <br> Please direct all inquiries to contact@spikebetting.com
-          </p>
-        </div>
-        
-        <form id="contact-form" class="contact-form" method="post" role="form">
-          <div class="form-group">
-            <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required >
-          </div>
-      
-          <div class="form-group">
-            <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
-          </div>
-      
-          <div class="form-group">
-            <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>    
-          </div>
-    
-          <div id="submit" class="">
-            <input type="submit" id="contact-submit" class="btn btn-default submit-button" value="Under Construction">
-          </div>
-        </form>
-        
-      </div>
-    </div>
 
     <div id="preloader">
       <img src="./assets/spikeLogo.png">
@@ -178,8 +206,8 @@
 
   <!-- Waiting List Form -->
   <script>
-    waitingListInput = document.getElementById('waitingListInput')
-    submitWaitingList = document.getElementById('submitWaitingList')
+    waitingListInput = document.getElementById('waitingListInput');
+    submitWaitingList = document.getElementById('submitWaitingList');
 
     document.getElementById('waitingList').addEventListener('submit', function(event) {
         event.preventDefault();
@@ -203,62 +231,40 @@
     });
   </script>
 
-  <!-- Contact form -->
-  <!-- <script>
-    (function($) {
-      $(".contact-form").validate({
-          rules: {
-              name: {
-                  required: true,
-                  minlength: 2
-              },
-              email: {
-                  required: true,
-                  email: true
-              },
-              subject: {
-                  required: true,
-                  minlength: 2
-              },
-              message: {
-                  required: true,
-                  minlength: 2
-              }
-          },
-          messages: {
-              name: {
-                  required: "come on, you have a name don't you?",
-                  minlength: "your name must consist of at least 2 characters"
-              },
-              email: {
-                  required: "no email, no support"
-              },
-              subject: {
-                  required: "you have a reason to contact, write it here",
-                  minlength: "thats all? really?"
-              },
-              message: {
-                  required: "um...yea, you have to write something to send this form.",
-                  minlength: "thats all? really?"
-              }
-          },
-          submitHandler: function(form) {
-              $(form).ajaxSubmit({
-                  type:"POST",
-                  data: $(form).serialize(),
-                  url:"contact@spikebetting.com",
-                  success: function() {
-                      $(".contact-form").resetForm();
-                      $(".success").slideDown("slow");
-                  },
-                  error: function() {
-                      $(".error").slideDown("slow");
-                  }
-              });
-          }
-      });    
-    })(jQuery);
-  </script> -->
+  <!-- Contact Form -->
+  <script>
+    personName = document.getElementById('personName');
+    email = document.getElementById('email');
+    subject = document.getElementById('subject');
+    message = document.getElementById('message');
+
+    submitContact = document.getElementById('contact-submit');
+
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+    
+        var formData = new FormData(this);
+        
+        fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSd5nOlfwVjJ87Ktid-Wp231i7AVHavJaf9qYvXS5Qa9cZF8qQ/formResponse', {
+            method: 'POST',
+            body: formData,
+            mode: 'no-cors'
+        })
+        .then(response => {
+            console.log('Success:', response);
+            personName.value = '';
+            email.value = '';
+            subject.value = '';
+            message.value = '';
+            message.placeholder = 'Thank you for contacting us!';
+            submitContact.value = 'Sent!';
+        })
+        .catch(error => {
+            console.error('Error:', error.message);
+        });
+    });
+  </script>
+
 
 
 </html>
