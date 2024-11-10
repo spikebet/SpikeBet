@@ -369,13 +369,22 @@
     object-fit: cover;
 }
 
-.spike .navbar{
+.spike .navbar {
     width: 100vw;
     margin: none;
-    height: 80px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.05) 85%, rgba(0, 0, 0, 0));;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.05) 85%, rgba(0, 0, 0, 0));
     position: fixed;
     transition: all 1s ease;
+}
+
+.spike #psuedo-navbar {
+    width: 100vw;
+    margin: none;
+    height: 100px;
+    backdrop-filter: blur(10px);
+    mask-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.05) 90%, transparent);
+    position: fixed;
 }
 
 .spike .topbar {
@@ -413,6 +422,7 @@
     font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
+    z-index: 2;
 }
 
 .spike .about-corner a {
@@ -431,11 +441,12 @@
     font-size: 25px;
     letter-spacing: 0;
     line-height: normal;
+    z-index: 2;
 }
 
 .spike .the-PREMIER-track {
     position: absolute;
-    width: 646px;
+    width: auto;
     top: 13px;
     left: 80px;
     font-family: "Open Sans", Helvetica;
@@ -538,9 +549,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    filter: drop-shadow(0px 0px 200px #ffd07e99) drop-shadow(0px 0px 110px #ffd07e8e) drop-shadow(0px 0px 50.24px #fff);
     background-image: url("./assets/iPhone-Pro.png");
     background-size: 100% 100%;
+    filter: drop-shadow(0px 0px 200px #ffd07e99) drop-shadow(0px 0px 110px #ffd07e8e) drop-shadow(0px 0px 50.24px #fff);
 }
 
 .spike .screen-iphone-pro {
@@ -829,6 +840,7 @@
     letter-spacing: 6.6px;
     line-height: 97.9px;
     transition: all 0.5s ease;
+    /* opacity: 0; */
 }
 
 /* .title-1:hover {
@@ -1018,6 +1030,7 @@
     color: white;
     padding-top: 100px;
     font-size: 14px;
+    padding-bottom: 100px;
 }
 
 @keyframes wiggle {

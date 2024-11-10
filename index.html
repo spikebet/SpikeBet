@@ -79,7 +79,7 @@
               <div class="text-wrapper-39">THE</div>
             </div>
           </div>
-          <div class="WIN-MONEY">WIN<br />MONEY</div>
+          <div class="WIN-MONEY" id="win-money">WIN<br />MONEY</div>
           <div class="text-wrapper-47">Available soon on:</div>
           <p class="and-your-first-bet-s">
             <span class="text-wrapper-2">and your first bet’s </span>
@@ -162,24 +162,25 @@
 
             <div class="horizontal-container">
               <div class="horizontal-scrolling-items">
-                <div class="horizontalScroll ">BY ATHLETE & FANS, FOR ATHLETE & FANS. <span style="color: #fcb434;">EXCITEMENT ON AND OFF THE TRACK.</span> JOIN THE RACE. &nbsp</div>
-                <div class="horizontalScroll ">BY ATHLETE & FANS, FOR ATHLETE & FANS. <span style="color: #fcb434;">EXCITEMENT ON AND OFF THE TRACK.</span> JOIN THE RACE. &nbsp</div>
+                <div class="horizontalScroll ">BY ATHLETES & FANS, FOR ATHLETES & FANS. EXCITEMENT ON AND OFF THE TRACK. <span style="color: #fcb434;">JOIN THE WAIT.</span> &nbsp</div>
+                <div class="horizontalScroll ">BY ATHLETES & FANS, FOR ATHLETES & FANS.EXCITEMENT ON AND OFF THE TRACK. <span style="color: #fcb434;">JOIN THE WAIT.</span> &nbsp</div>
               </div>
             </div>
 
-            <p id="copyright">© Copyright 2024 Spike Betting Inc.</p>
+            <p id="copyright">Copyright © Spike Betting Inc. 2024</p>
 
           </div>
         
         </div>
 
         <!-- mailto:contact@spikebetting.com -->
+        <div id="psuedo-navbar"></div>
         <div class="navbar" id="navbar">
-          <div class="contact-corner"><a href="#contact">Contact</a></div>
-          <div class="about-corner"><a href="#about">About</a></div>
-          <img class="spikeLogo" src="./assets/spikeLogo.png" />
+          <a href="#contact"><div class="contact-corner">Contact</div></a>
+          <a href="#about"><div class="about-corner">About</div></a>
+          <a href="https://spikebetting.com/"><img class="spikeLogo" src="./assets/spikeLogo.png" /></a>
           <div class="topbar">
-            <div class="spike-corner">SPIKE</div>
+            <div class="spike-corner"><a style="color: white;" href="https://spikebetting.com/">SPIKE</a></div>
             <p class="the-PREMIER-track">
               <span class="text-wrapper-20">The</span>
               <span class="text-wrapper-21">&nbsp;</span>
@@ -201,11 +202,16 @@
   <!-- Preloader and Scroll-->
   <script>
     window.onload = function(){
-      setTimeout(function() {
-        document.getElementById("preloader").style.opacity = 0;
-        setTimeout(function(){
-          document.getElementById("preloader").style.display = "none";
+      preloader = document.getElementById("preloader")
 
+      setTimeout(function() {
+        preloader.style.opacity = 0;
+        setTimeout(function(){
+          preloader.style.display = "none";
+          // setTimeout(function(){
+          //   document.getElementById("win-money").style.opacity = "1";
+
+          // }, 500);
         }, 500);
       }, 1500);
     }
