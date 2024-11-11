@@ -12,7 +12,7 @@
 <body>
   <div class="spike laptop-wrapper">
     <div class="laptop">
-      <div class="elements">
+      <div class="elements" id="elements">
         <div class="tracklines-wrapper">
           <img class="tracklines" src="./assets/tracklines-extended.png" />
         </div>
@@ -233,6 +233,62 @@
       }, 500);
     }, 1500);
   }
+
+  // Track current section to prevent triggering multiple scrolls
+  let currentSection = 'top';
+  const about = document.getElementById('about');
+  const contact = document.getElementById('contact');
+  listening = true;
+
+  window.addEventListener('scroll', function () {
+    if (window.innerWidth >= 1050) {
+      event.preventDefault();
+
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      
+      // Set threshold values for sections
+      const threshold = 75;
+      console.log(scrollPosition);
+
+      if (listening) {
+
+        // Scrolling down from top to medium
+        if (currentSection === 'top' && scrollPosition > threshold) {
+          about.scrollIntoView({ behavior: 'smooth' });
+          currentSection = 'about';
+
+          listening = false;
+          setTimeout(function() {listening = true}, 1000);
+        }
+        // Scrolling down from medium to bottom
+        else if (currentSection === 'about' && scrollPosition > 1000 + threshold) {
+          contact.scrollIntoView({ behavior: 'smooth' });
+          currentSection = 'contact';
+
+          listening = false;
+          setTimeout(function() {listening = true}, 1000);
+        }
+        // Scrolling down from medium to bottom
+        else if (currentSection === 'about' && scrollPosition < 1000 - threshold) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+          currentSection = 'top';
+
+          listening = false;
+          setTimeout(function() {listening = true}, 1000);
+        }
+        // Scrolling down from medium to bottom
+        else if (currentSection === 'contact' && scrollPosition < 2000 - threshold) {
+          about.scrollIntoView({ behavior: 'smooth' });
+          currentSection = 'about';
+
+          listening = false;
+          setTimeout(function() {listening = true}, 1000);
+        }
+      }
+    }
+  });
+
 </script>
 
 <!-- Waiting List Form -->
