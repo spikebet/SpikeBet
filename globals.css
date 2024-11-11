@@ -16,6 +16,7 @@ body {
     background: black;
     margin: 0px;
     height: 100%;
+    overflow-x: hidden;
 }
 
 /* a blue color as a generic focus style */

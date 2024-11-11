@@ -375,6 +375,8 @@
     height: 100px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.05) 85%, rgba(0, 0, 0, 0));
     position: fixed;
+    top: 0px;
+    left:0px;
     transition: all 1s ease;
 }
 
@@ -383,6 +385,9 @@
     margin: none;
     height: 100px;
     backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0px;
+    left:0px;
     mask-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.05) 90%, transparent);
     position: fixed;
 }
@@ -462,7 +467,8 @@
     width: 330px;
     height: 40px;
     top: 410px;
-    left: 125px;
+    left: calc(50% - 350px);
+    transform: translate(-50%);
     display: flex;
     margin: 0 auto;
 }
@@ -502,36 +508,49 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
-.spike .laptop {
+/* .spike .laptop {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
-    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     width: 100%;
     height: 1367px;
     position: relative;
     overflow-y: visible;
     scroll-behavior: smooth;
-}
+} */
 
 .spike .elements {
     position: absolute;
-    width: 90vw;
-    height: 1232px;
-    top: 50%;
+    width: 100vw;
+    margin-top: 80px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: visible;
+    transform: translate(-50%, 0);
+}
+
+.spike .tracklines-wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 2900px;
+    top: 219px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .spike .tracklines {
     position: absolute;
     width: 1938px;
     height: 2495px;
-    top: 219px;
-    left: -225px;
-    overflow: visible;
+    top: 0;
+    left: calc(50% + 85px);
+    transform: translate(-50%, 0);
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .spike .iphone-pro {
@@ -539,7 +558,8 @@
     width: 324px;
     height: 669px;
     top: 0;
-    left: 496px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .spike .screen-iphone-pro-wrapper {
@@ -567,7 +587,8 @@
     width: 387px;
     height: 191px;
     top: 432px;
-    left: 249px;
+    left: calc(50% - 180px);
+    transform: translate(-50%, 0);
     transition: all 0.3s ease;
 }
 
@@ -738,7 +759,8 @@
     width: 432px;
     height: 268px;
     top: 55px;
-    left: 639px;
+    left: calc(50% + 195px);
+    transform: translate(-50%, 0);
     transition: all 0.3s ease;
 }
 
@@ -821,18 +843,20 @@
 
 .spike .title-1 {
     position: absolute;
-    width: 465px;
+    width: 400px;
     height: 310px;
     top: 45px;
-    left: 0;
+    left: calc(50% - 440px);
+    transform: translate(-50%);
     transition: all 0.5s ease;
 }
 
 .spike .WIN-MONEY {
     position: absolute;
-    width: 702px;
+    width: 602px;
     top: 294px;
-    left: 849px;
+    left: calc(50% + 480px);
+    transform: translate(-50%);
     font-family: "Kanit", Helvetica;
     font-weight: 700;
     color: #fcb538;
@@ -863,7 +887,8 @@
     position: absolute;
     width: 222px;
     top: 528px;
-    left: 855px;
+    left: calc(50% + 300px);
+    transform: translate(-50%);
     font-family: "Open Sans", Helvetica;
     font-weight: 600;
     color: #ffffff;
@@ -876,7 +901,8 @@
     position: absolute;
     width: 137px;
     top: 467px;
-    left: 311px;
+    left: calc(50% - 260px);
+    transform: translate(-50%);
     font-family: "Open Sans", Helvetica;
     font-weight: 600;
     color: transparent;
@@ -887,7 +913,8 @@
 }
 
 .spike .store-download-apple {
-    left: 994px;
+    left: calc(50% + 245px);
+    transform: translate(-50%);
     position: absolute;
     width: 120px;
     height: 40px;
@@ -898,7 +925,8 @@
 }
 
 .spike .store-download-google {
-    left: 854px;
+    left: calc(50% + 380px);
+    transform: translate(-50%);
     position: absolute;
     width: 120px;
     height: 40px;
@@ -944,8 +972,10 @@
 .about {
     position: absolute;
     top: 1000px;
+    left: 50%;
+    transform: translate(-50%);
     background-color: transparent;
-    width: 100%;
+    width: 60vw;
     height: 100vh;
     padding: 20px;
     color: white;
@@ -957,8 +987,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40vw;
-    /* backdrop-filter: blur(5px); */
+    width: 100%;
 }
 
 .about h3 {
@@ -1064,6 +1093,10 @@
     font-family: "Open Sans", Helvetica !important;
 }
 
+#contact {
+    padding-top: 100px;
+}
+
 .contact .contact-form-wrapper {
     margin: auto;
     width: 50vw;
@@ -1122,8 +1155,10 @@
 .horizontal-container {
     padding-top: 300px;
     padding-bottom: 100px;
-    margin: -10vw;
-    width: 110vw;
+    /* margin: -10vw; */
+    position: absolute;
+    left:0;
+    width: 100vw;
     overflow-x: hidden;
 }
 
@@ -1157,6 +1192,7 @@
     }
 
     .spike .elements {
+        margin-top: 200px;
         position: absolute;
         width: 95vw;
         height: 1400px;
@@ -1236,10 +1272,19 @@
         font-size: 20px;
     }
 
+    .spike .tracklines-wrapper {
+        height: 2900px;
+        top: 780px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
     .spike .tracklines {
         width: 2255px;
-        top: 740px;
-        left: -560px;
+        height: 2495px;
+        top: 0;
+        left: calc(50% + 100px);
+        transform: translate(-50%, 0);
     }
 
     .spike .iphone-pro {
@@ -1289,7 +1334,7 @@
 
     .about {
         position: absolute;
-        top: 1300px;
+        top: 1800px;
     }
 
     .about-text {
@@ -1308,11 +1353,12 @@
 
     .contact {
         position: absolute;
-        top: 3400px;
+        top: 4500px;
     }
 
     .contact .contact-form-wrapper {
         width: 80vw;
+        padding-top: 200px;
     }
 
     .contact .contact-form-wrapper h1 {
@@ -1342,11 +1388,12 @@
     }
 
     .horizontal-container {
+        padding-top: 0px;
         top: 1800px;
     }
 }
 
-@media (min-width: 1050px) and (max-width: 1316px) {
+/* @media (min-width: 1050px) and (max-width: 1316px) {
     .spike .phone-title {
         display: none !important;
     }
@@ -1448,7 +1495,7 @@
             width: 282px;
             height: 166px;
         }
-    } */
+    }
 
     .spike .small-popout:hover {
         top: 442px;
@@ -1467,9 +1514,9 @@
             box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
         }
     }
-}
+} */
 
-@media (min-width: 1097px) {
+@media (min-width: 1050px) {
     .spike .phone-title {
         display: none !important;
     }
@@ -1500,7 +1547,7 @@
         }
     } */
 
-    .spike .small-popout:hover {
+    /* .spike .small-popout:hover {
         top: 442px;
         left: 239px;
 
@@ -1516,5 +1563,5 @@
         .popout-rectangle {
             box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.5);
         }
-    }
+    } */
 }
