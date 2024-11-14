@@ -571,7 +571,7 @@
     transform: translate(-50%, -50%);
     background-image: url("./assets/iPhone-Pro.png");
     background-size: 100% 100%;
-    filter: drop-shadow(0px 0px 200px #ffd07e99) drop-shadow(0px 0px 110px #ffd07e8e) drop-shadow(0px 0px 50.24px #fff);
+    filter: drop-shadow(0px 0px 200px #fffc3199) drop-shadow(0px 0px 110px #ffec7e8e) drop-shadow(0px 0px 50.24px #fff);
 }
 
 .spike .screen-iphone-pro {

@@ -240,54 +240,54 @@
   const contact = document.getElementById('contact');
   listening = true;
 
-  window.addEventListener('scroll', function () {
-    if (window.innerWidth >= 1050) {
-      event.preventDefault();
+  // window.addEventListener('scroll', function () {
+  //   if (window.innerWidth >= 1050) {
+  //     event.preventDefault();
 
-      const scrollPosition = window.scrollY;
-      const windowHeight = window.innerHeight;
+  //     const scrollPosition = window.scrollY;
+  //     const windowHeight = window.innerHeight;
       
-      // Set threshold values for sections
-      const threshold = 75;
-      console.log(scrollPosition);
+  //     // Set threshold values for sections
+  //     const threshold = 75;
+  //     console.log(scrollPosition);
 
-      if (listening) {
+  //     if (listening) {
 
-        // Scrolling down from top to medium
-        if (currentSection === 'top' && scrollPosition > threshold) {
-          about.scrollIntoView({ behavior: 'smooth' });
-          currentSection = 'about';
+  //       // Scrolling down from top to medium
+  //       if (currentSection === 'top' && scrollPosition > threshold) {
+  //         about.scrollIntoView({ behavior: 'smooth' });
+  //         currentSection = 'about';
 
-          listening = false;
-          setTimeout(function() {listening = true}, 1000);
-        }
-        // Scrolling down from medium to bottom
-        else if (currentSection === 'about' && scrollPosition > 1000 + threshold) {
-          contact.scrollIntoView({ behavior: 'smooth' });
-          currentSection = 'contact';
+  //         listening = false;
+  //         setTimeout(function() {listening = true}, 1000);
+  //       }
+  //       // Scrolling down from medium to bottom
+  //       else if (currentSection === 'about' && scrollPosition > 1000 + threshold) {
+  //         contact.scrollIntoView({ behavior: 'smooth' });
+  //         currentSection = 'contact';
 
-          listening = false;
-          setTimeout(function() {listening = true}, 1000);
-        }
-        // Scrolling down from medium to bottom
-        else if (currentSection === 'about' && scrollPosition < 1000 - threshold) {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-          currentSection = 'top';
+  //         listening = false;
+  //         setTimeout(function() {listening = true}, 1000);
+  //       }
+  //       // Scrolling down from medium to bottom
+  //       else if (currentSection === 'about' && scrollPosition < 1000 - threshold) {
+  //         window.scrollTo({ top: 0, behavior: 'smooth' });
+  //         currentSection = 'top';
 
-          listening = false;
-          setTimeout(function() {listening = true}, 1000);
-        }
-        // Scrolling down from medium to bottom
-        else if (currentSection === 'contact' && scrollPosition < 2000 - threshold) {
-          about.scrollIntoView({ behavior: 'smooth' });
-          currentSection = 'about';
+  //         listening = false;
+  //         setTimeout(function() {listening = true}, 1000);
+  //       }
+  //       // Scrolling down from medium to bottom
+  //       else if (currentSection === 'contact' && scrollPosition < 2000 - threshold) {
+  //         about.scrollIntoView({ behavior: 'smooth' });
+  //         currentSection = 'about';
 
-          listening = false;
-          setTimeout(function() {listening = true}, 1000);
-        }
-      }
-    }
-  });
+  //         listening = false;
+  //         setTimeout(function() {listening = true}, 1000);
+  //       }
+  //     }
+  //   }
+  // });
 
 </script>
 
