@@ -1108,10 +1108,10 @@
 }
 
 .contact .contact-form-wrapper h1 {
-    font-size: 18px;
+    font-size: 60px;
     font-family: "Open Sans", Helvetica;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight:900;
 }
 
 .contact .contact-form-wrapper p {
