@@ -369,6 +369,12 @@
     object-fit: cover;
 }
 
+.spike .spikeContactA {
+    height: 50px;
+    object-fit: cover;
+    transform: rotate(180deg);
+}
+
 .spike .navbar {
     width: 100vw;
     margin: none;
@@ -571,7 +577,7 @@
     transform: translate(-50%, -50%);
     background-image: url("./assets/iPhone-Pro.png");
     background-size: 100% 100%;
-    filter: drop-shadow(0px 0px 200px #fffc3199) drop-shadow(0px 0px 110px #ffec7e8e) drop-shadow(0px 0px 50.24px #fff);
+    filter: drop-shadow(0px 0px 200px #ffe03199) drop-shadow(0px 0px 110px #f3dc5b8e) drop-shadow(0px 0px 50.24px #fff);
 }
 
 .spike .screen-iphone-pro {
@@ -975,7 +981,7 @@
     left: 50%;
     transform: translate(-50%);
     background-color: transparent;
-    width: 60vw;
+    width: 55vw;
     height: 100vh;
     padding: 20px;
     color: white;
@@ -984,17 +990,19 @@
 
 .about-text {
     position: absolute;
+    margin-top: 200px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 80%;
 }
 
 .about h3 {
     font-family: "Kanit", Helvetica;
-    font-weight: 700;
+    font-weight: 800;
     color: white;
-    font-size: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
 }
 
 .about p {
@@ -1038,7 +1046,7 @@
     top: 0;
     left: 0;
     margin: none;
-    z-index: 2;
+    z-index: 3;
     width: 100vw;
     height: 100vh;
     background-color: black;
@@ -1174,6 +1182,15 @@
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+}
+
+#gamble-responsibly {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: white;
+    font-size: 10px;
+    z-index: 2;
 }
 
 .horizontal-scrolling-items__item {
@@ -1334,7 +1351,7 @@
 
     .about {
         position: absolute;
-        top: 1800px;
+        top: 2000px;
     }
 
     .about-text {
@@ -1365,6 +1382,10 @@
         font-size: 45px;
     }
 
+    .spike .spikeContactA {
+        height: 35px;
+    }
+
     .contact .contact-form-wrapper p {
         padding: 20px;
         font-size: 25px;
@@ -1391,6 +1412,11 @@
         padding-top: 0px;
         top: 1800px;
     }
+
+    #gamble-responsibly {
+        font-size: 17px;
+    }
+
 }
 
 /* @media (min-width: 1050px) and (max-width: 1316px) {

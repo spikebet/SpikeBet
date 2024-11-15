@@ -103,26 +103,29 @@
 
         <img id="apple-store" class="store-download-apple" src="./assets/applestore.png" />
         <img id="google-store" class="store-download-google" src="./assets/googlestore.png" />
+      
       </div>
+
+      <a id="gamble-responsibly" href="https://www.responsiblegambling.org/" target="_blank">Gamble Responsibly</a>
 
       <div class="about" id="about">
         <!-- <img id="coming-soon-img" src="./assets/spikeLogo.png">
             <div class="coming-soon">Coming Soon</div> -->
 
-        <div class="about-text">
-          <h3>By athletes & fans, for athletes & fans</h3>
+        <div class="about-text" id="about-text">
+          <h3>By athletes & fans<br> <span  style="color:#fcb434;">for athletes & fans</span></h3>
           <br>
           <p>We love Track & Field. But we’ve seen the sport struggle to gain popularity. That’s why we created Spike.
             Download the app, connect with other fans, and win – all while helping the sport get the attention it
             deserves. </p>
           <br>
-          <h3>Excitement, on and off the track</h3>
+          <h3>Excitement <br> <span  style="color:#fcb434;">on and off the track</span></h3>
           <br>
           <p>Whether you’re cheering for your favorite athlete or betting against their rival, Spike lets you join in on
             the action. Bet on any athlete across any event, anywhere – it’s time to make Track & Field as thrilling off
             the track as it is on it. </p>
           <br>
-          <h3>Join the wait <br>today</h3>
+          <h3>Join the wait today</h3>
         </div>
 
       </div>
@@ -130,7 +133,7 @@
       <div class="contact" id="contact">
         <div class="contact-form-wrapper">
           <div class="title">
-            <h1>Contact <span style="color:#fcb434;">Us</span></h1>
+            <h1>Cont<img class="spikeContactA" id="spikeContactA" src="./assets/spikeLogo.png" />ct <span style="color:#fcb434;">Us</span></h1>
             <p>
               You can also direct email us at contact@spikebetting.com. <br> Reach out with questions or if you want to
               become involved.
@@ -198,7 +201,7 @@
         <a href="#about">
           <div class="about-corner">About</div>
         </a>
-        <a href="https://spikebetting.com/"><img class="spikeLogo" src="./assets/spikeLogo.png" /></a>
+        <a href="https://spikebetting.com/"><img class="spikeLogo" id="spikeLogo" src="./assets/spikeLogo.png" /></a>
         <div class="topbar">
           <div class="spike-corner"><a style="color: white;" href="https://spikebetting.com/">SPIKE</a></div>
           <p class="the-PREMIER-track">
@@ -217,11 +220,15 @@
   <div id="preloader">
     <img src="./assets/spikeLogo.png">
   </div>
+
 </body>
 
 <!-- Preloader and Scroll-->
 <script>
+  let about_text_height = 0;
+
   window.onload = function () {
+    about_text_height = about_text.getBoundingClientRect().top;
     preloader = document.getElementById("preloader")
 
     setTimeout(function () {
@@ -243,10 +250,14 @@
   const available_soon = document.getElementById("available-soon");
   const apple_store = document.getElementById("apple-store");
   const google_store = document.getElementById("google-store");
+  const spikeLogo = document.getElementById("spikeLogo");
+  const about_text = document.getElementById("about-text");
 
   window.addEventListener('scroll', function () {
+    const scrollPosition = window.scrollY;
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+
     if (window.innerWidth >= 1050) {
-      const scrollPosition = window.scrollY;
 
       win_money.style.transform = `translate(-50%, ${-scrollPosition * 1.15}px)`;
       join_the_race.style.transform = `translate(-50%, ${-scrollPosition * 1.025}px)`;
@@ -257,8 +268,11 @@
       available_soon.style.transform = `translate(-50%, ${-scrollPosition * 0.89}px)`;
       apple_store.style.transform = `translate(-50%, ${-scrollPosition * 0.89}px)`;
       google_store.style.transform = `translate(-50%, ${-scrollPosition * 0.89}px)`;
-
+      spikeLogo.style.transform = `rotate(${(scrollPosition / scrollableHeight) * 360}deg)`;
     }
+
+    about_text.style.transform = `translate(-50%, ${(-scrollPosition) * 0.5}px)`;
+    
   });
 
   // Track current section to prevent triggering multiple scrolls
