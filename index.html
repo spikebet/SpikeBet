@@ -21,7 +21,7 @@
             <img class="screen-iphone-pro" src="./assets/Screen-iPhone-Pro.png" />
           </div>
         </div>
-        <div class="small-popout">
+        <div class="small-popout" id="small-popout">
           <div class="popout-group">
             <img class=".extruding-vector" src="./assets/small-extruding-vector.svg" />
             <div class="popout-rectangle"></div>
@@ -40,7 +40,7 @@
             <div class="text-wrapper-46">Against</div>
           </div>
         </div>
-        <div class="large-popout">
+        <div class="large-popout" id="large-popout">
           <div class="popout-group">
             <img class="large-extruding-vector" src="./assets/large-extruding-vector.svg" />
             <div class="popout-rectangle"></div>
@@ -76,7 +76,7 @@
           <div class="text-wrapper-48">JOIN THE RACE</div>
           <div class="text-wrapper-49">WIN MONEY</div>
         </div>
-        <div class="title-1">
+        <div class="title-1" id="title-1">
           <div class="overlap-7">
             <div class="text-wrapper-37">JOIN</div>
             <div class="text-wrapper-38">RACE</div>
@@ -84,8 +84,8 @@
           </div>
         </div>
         <div class="WIN-MONEY" id="win-money">WIN<br />MONEY</div>
-        <div class="text-wrapper-47">Available soon on:</div>
-        <p class="and-your-first-bet-s">
+        <div class="text-wrapper-47" id="available-soon">Available soon on:</div>
+        <p class="and-your-first-bet-s" id="and-your-first-bet-s">
           <span class="text-wrapper-2">and your first bet’s </span>
           <span class="span">on us</span>
           <span class="text-wrapper-2">&nbsp;</span>
@@ -93,7 +93,7 @@
 
         <!-- <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfp_4zq6HWSrrjJVNQWdi3gwaKQ_EuvUkyzVWZblytbPvGUcw/formResponse" method="POST">               -->
         <form id="waitingList">
-          <div class="input-button-container">
+          <div class="input-button-container" id="input-button-container">
             <input id="waitingListInput" type="email" name="entry.547413895" autocomplete="off" required
               placeholder="Email Address...">
             <button id="submitWaitingList" class="submit-btn">JOIN THE WAIT</button>
@@ -101,8 +101,8 @@
         </form>
 
 
-        <img class="store-download-apple" src="./assets/applestore.png" />
-        <img class="store-download-google" src="./assets/googlestore.png" />
+        <img id="apple-store" class="store-download-apple" src="./assets/applestore.png" />
+        <img id="google-store" class="store-download-google" src="./assets/googlestore.png" />
       </div>
 
       <div class="about" id="about">
@@ -122,7 +122,7 @@
             the action. Bet on any athlete across any event, anywhere – it’s time to make Track & Field as thrilling off
             the track as it is on it. </p>
           <br>
-          <h3>Join the wait today</h3>
+          <h3>Join the wait <br>today</h3>
         </div>
 
       </div>
@@ -234,12 +234,38 @@
     }, 1500);
   }
 
+  const win_money = document.getElementById("win-money");
+  const join_the_race = document.getElementById("title-1");
+  const small_popout = document.getElementById("small-popout");
+  const large_popout = document.getElementById("large-popout");
+  const first_bet = document.getElementById("and-your-first-bet-s");
+  const waitingList = document.getElementById("input-button-container");
+  const available_soon = document.getElementById("available-soon");
+  const apple_store = document.getElementById("apple-store");
+  const google_store = document.getElementById("google-store");
+
+  window.addEventListener('scroll', function () {
+    if (window.innerWidth >= 1050) {
+      const scrollPosition = window.scrollY;
+
+      win_money.style.transform = `translate(-50%, ${-scrollPosition * 1.15}px)`;
+      join_the_race.style.transform = `translate(-50%, ${-scrollPosition * 1.025}px)`;
+      small_popout.style.transform = `translate(-50%, ${-scrollPosition * 0.95}px)`;
+      large_popout.style.transform = `translate(-50%, ${-scrollPosition * 1.075}px)`;
+      first_bet.style.transform = `translate(-50%, ${-scrollPosition * 0.92}px)`;
+      waitingList.style.transform = `translate(-50%, ${-scrollPosition * 0.89}px)`;
+      available_soon.style.transform = `translate(-50%, ${-scrollPosition * 0.89}px)`;
+      apple_store.style.transform = `translate(-50%, ${-scrollPosition * 0.89}px)`;
+      google_store.style.transform = `translate(-50%, ${-scrollPosition * 0.89}px)`;
+
+    }
+  });
+
   // Track current section to prevent triggering multiple scrolls
   let currentSection = 'top';
   const about = document.getElementById('about');
   const contact = document.getElementById('contact');
-  listening = true;
-
+  // listening = true;
   // window.addEventListener('scroll', function () {
   //   if (window.innerWidth >= 1050) {
   //     event.preventDefault();
