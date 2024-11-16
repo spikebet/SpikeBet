@@ -1030,6 +1030,14 @@
     animation: wiggle 1s ease infinite;
 }
 
+.about .input-button-container2 {
+    width: 330px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
 @media (max-width: 768px) {
     .about-section {
         flex-direction: column;

@@ -126,6 +126,14 @@
             the track as it is on it. </p>
           <br>
           <h3>Join the wait today</h3>
+
+          <form id="waitingList2">
+            <div class="input-button-container2" id="input-button-container">
+              <input id="waitingListInput2" type="email" name="entry.547413895" autocomplete="off" required
+                placeholder="Email Address...">
+              <button id="submitWaitingList2" class="submit-btn">JOIN THE WAIT</button>
+            </div>
+          </form>
         </div>
 
       </div>
@@ -331,7 +339,7 @@
 
 </script>
 
-<!-- Waiting List Form -->
+<!-- Waiting List Form 1-->
 <script>
   waitingListInput = document.getElementById('waitingListInput');
   submitWaitingList = document.getElementById('submitWaitingList');
@@ -351,6 +359,33 @@
         waitingListInput.value = '';
         waitingListInput.placeholder = 'Thanks!';
         submitWaitingList.textContent = 'JOINED!';
+      })
+      .catch(error => {
+        console.error('Error:', error.message);
+      });
+  });
+</script>
+
+<!-- Waiting List Form 2-->
+<script>
+  waitingListInput2 = document.getElementById('waitingListInput2');
+  submitWaitingList2 = document.getElementById('submitWaitingList2');
+
+  document.getElementById('waitingList2').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    var formData = new FormData(this);
+
+    fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfp_4zq6HWSrrjJVNQWdi3gwaKQ_EuvUkyzVWZblytbPvGUcw/formResponse', {
+      method: 'POST',
+      body: formData,
+      mode: 'no-cors'
+    })
+      .then(response => {
+        console.log('Success:', response);
+        waitingListInput2.value = '';
+        waitingListInput2.placeholder = 'Thanks!';
+        submitWaitingList2.textContent = 'JOINED!';
       })
       .catch(error => {
         console.error('Error:', error.message);
