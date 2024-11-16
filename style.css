@@ -540,7 +540,7 @@
 .spike .tracklines-wrapper {
     position: absolute;
     width: 100vw;
-    height: 2900px;
+    height: 2650px;
     top: 219px;
     left: 50%;
     transform: translate(-50%, 0);
@@ -577,7 +577,9 @@
     transform: translate(-50%, -50%);
     background-image: url("./assets/iPhone-Pro.png");
     background-size: 100% 100%;
-    filter: drop-shadow(0px 0px 200px #ffe03199) drop-shadow(0px 0px 110px #f3dc5b8e) drop-shadow(0px 0px 50.24px #fff);
+    /* filter: drop-shadow(0px 0px 200px #ffe03199) drop-shadow(0px 0px 110px #f3dc5b8e) drop-shadow(0px 0px 50.24px #fff); */
+    filter: drop-shadow(0px 0px 50px #fff9cef1);
+
 }
 
 .spike .screen-iphone-pro {
@@ -855,6 +857,7 @@
     left: calc(50% - 440px);
     transform: translate(-50%);
     transition: all 0.5s ease;
+    /* text-shadow: 0px 0px 15px #ffffff; */
 }
 
 .spike .WIN-MONEY {
@@ -870,6 +873,7 @@
     letter-spacing: 6.6px;
     line-height: 97.9px;
     transition: all 0.5s ease;
+    /* text-shadow: 0px 0px 30px #FCB434; */
     /* opacity: 0; */
 }
 
@@ -1073,9 +1077,19 @@
 #copyright {
     text-align: center;
     color: white;
-    padding-top: 100px;
+    padding-top: 200px;
     font-size: 14px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
+}
+
+
+#gamble-responsibly {
+    font-family: "Open Sans", Helvetica;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
 }
 
 @keyframes wiggle {
@@ -1169,7 +1183,7 @@
 }
 
 .horizontal-container {
-    padding-top: 300px;
+    padding-top: 50px;
     padding-bottom: 100px;
     /* margin: -10vw; */
     position: absolute;
@@ -1190,15 +1204,6 @@
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
-
-#gamble-responsibly {
-    position: absolute;
-    top: 80px;
-    left: 50px;
-    color: white;
-    font-size: 10px;
-    z-index: 2;
 }
 
 .horizontal-scrolling-items__item {
@@ -1324,7 +1329,7 @@
         width: 346px;
         height: 821px;
 
-        filter: drop-shadow(0px 0px 200px #ffd07ee9) drop-shadow(0px 0px 50.24px #fff);
+        /* filter: drop-shadow(0px 0px 200px #ffd07ee9) drop-shadow(0px 0px 50.24px #fff); */
     }
 
     .spike .screen-iphone-pro {
@@ -1376,9 +1381,14 @@
         line-height: 30px;
     }
 
+    .about .input-button-container2 {
+        width: 450px;
+        height: 60px;
+    }
+
     .contact {
         position: absolute;
-        top: 4500px;
+        top: 4100px;
     }
 
     .contact .contact-form-wrapper {
@@ -1412,13 +1422,14 @@
         padding: 5px;
     }
 
-    #copyright {
-        font-size: 22px;
-    }
-
     .horizontal-container {
         padding-top: 0px;
-        top: 1800px;
+        top: 1000px;
+    }
+
+    #copyright {
+        padding-top: 500px;
+        font-size: 22px;
     }
 
     #gamble-responsibly {
