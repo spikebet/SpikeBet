@@ -1,6 +1,7 @@
 {
     "name": "spike-betting",
     "main": "/index.html",
-    "dependencies": {},
-    "devDependencies": {}
-  }
+    "dependencies": {
+        "@supabase/supabase-js": "^2.47.16"
+    }
+}
