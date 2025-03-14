@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ExternalLink, Send } from 'lucide-react';
+import { Send } from 'lucide-react';
 
 const App = () => {
   const [email, setEmail] = useState('');
