@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Send } from 'lucide-react';
+import { Send, Mail } from 'lucide-react';
 
 const App = () => {
   const [email, setEmail] = useState('');
@@ -67,11 +67,20 @@ const App = () => {
     <div className="min-h-screen bg-black text-white flex flex-col">
       {/* Header */}
       <header className="container mx-auto px-6 py-8">
-        <div className="flex items-center">
+        <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
             <img src="./spike_banner.png" alt="Logo" className="h-18 mr-3" />
           </div>
+          
+          {/* Contact Button */}
+          <a 
+            href="mailto:contact@spikeplay.com"
+            className="inline-flex items-center px-4 py-2 bg-transparent border border-[#FCB434] text-[#FCB434] font-medium text-sm rounded-lg hover:bg-[#FCB434] hover:text-black transition-colors"
+          >
+            <Mail className="mr-2" size={16} />
+            Contact Us
+          </a>
         </div>
       </header>
       
