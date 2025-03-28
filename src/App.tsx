@@ -1,8 +1,6 @@
 import { Mail } from 'lucide-react';
 
-const App = () => {
-  // Removed email state and submission states since they're no longer needed
-  
+const App = () => {  
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
       {/* Header */}
